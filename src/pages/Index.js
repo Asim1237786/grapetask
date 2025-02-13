@@ -414,7 +414,7 @@ const Index = () => {
         div
         className="container-fluid esaysection position-relative pt-lg-5 pt-md-4 pt-3"
       >
-        <img src={done} className="w-100 position-absolute doneimg" alt="" />
+        <img src={done} className="w-100 position-absolute doneimg" alt="Outsourcing" />
 
         <div className="d-flex justify-content-center flex-column mt-5">
           <h1 className="text-center font-28 cocon">
