@@ -116,10 +116,10 @@ const AboutUS = () => {
           </button>
         </div>
 
-        <h3 className="text-center fw-semibold font-38 poppins">
-          Empowering Business to thrive through
-          <br /> Innovative Solutions.
-        </h3>
+        <h1 className="text-center fw-semibold font-38 poppins">
+         About us
+          <br /> We Connecting Talent With Opportunity 
+        </h1>
       </div>
       {/* ================== MOBILE VERSION VIDEO SLIDER =============== */}
       <div className="container-fluid mt-4 d-lg-none d-md-none d-block">
@@ -276,39 +276,36 @@ const AboutUS = () => {
             <br className="d-lg-none   d-block" />
             <br className="d-lg-none d-md-block d-sm-block  d-none" />
 
-            <h2 className="font-28 blackcolor">We are hired to provide</h2>
+            <h2 className="font-28 blackcolor">Grapetask's Core Missions</h2>
             <div className="d-flex align-items-center mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3 ">
-                Empowering Youth To Make Money online sitting at home
+              Providing a trusted freelance marketplace for people to find self-employed jobs and freelance jobs online.
               </p>
             </div>
             <div className="d-flex align-items-center mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3 ">
-                Empowering Women to be financially stable & independent{" "}
+              Making outsourcing services easy and efficient for businesses of all sizes.
+              {" "}
               </p>
             </div>
             <div className="d-flex align-items-center mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3 ">
-                Make a digital world place where you can interact with thousands
-                of intellectuals daily
+              We prioritize safety with secure payments, building trust on our freelancing website.
               </p>
             </div>
             <div className="d-flex align-items-center mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3">
-                Where You can get orders & get paid digitally without any scam
-                frustration
+              Helping companies hire freelancers easily on the best online marketplace.
               </p>
             </div>
             <div className="d-flex mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3 ">
-                GrapeTask is a place where you find such a level of experts who
-                will convert your dream works into reality with highly super
-                best quality
+              We are dedicated to creating self-employed jobs, supporting growth, and encouraging independence.
               </p>
             </div>
             <div className="container-fluid mt-3">
@@ -355,13 +352,10 @@ const AboutUS = () => {
           </div>
           <div className="col-lg-6 col-md-6 col-sm-6 col-12 oringwhite ps-lg-5 ps-md-4">
             <h3 className=" font-40 fw-semibold specialized-line font-Garamond">
-              We Are Specialised <br />
-              And Experienced
+            Work with Experienced Pros
             </h3>
             <p className="font-18  mt-lg-5 mt-md-4 mt-2">
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium deleniti atque corrupti quosxcepturi odio
-              dignissimos ducimus qui blanditiis sint occaecati .
+            At Grapetask, we specialize in connecting businesses with skilled freelancers through our trusted freelance marketplace. With years of experience in outsourcing services, we understand the needs of both employers and freelancers. Our online freelancing platform makes it easy to hire freelancers for any project, big or small.
             </p>
             <div className="row pt-lg-5 pt-md-4 pt-3 ">
               <div className="col-lg-8 col-md-9 col-12">
@@ -384,7 +378,7 @@ const AboutUS = () => {
               </div>
               <div className="col-lg-8 col-md-9 col-12 mt-3">
                 <div className="d-flex justify-content-between">
-                  <div>Client Satifaction</div>
+                  <div>Client satisfaction</div>
                   <div>{sliderTwo}%</div>
                 </div>
                 <div className="about-slider">
