@@ -136,7 +136,7 @@ const AboutUS = () => {
               height={80}
               alt="w8"
             />
-            <img src={videoImg} alt="w8" className="w-100 rounded-4" />
+            <img src={videoImg} alt="best freelance services marketplace" className="w-100 rounded-4" />
           </div>
 
           {/* Modal */}
@@ -267,7 +267,7 @@ const AboutUS = () => {
           Our Missions
         </h3>
         <div className="d-flex justify-content-center">
-          <img src={line} className="text-center" alt="" />
+          <img src={line} className="text-center" alt="online work" />
         </div>
         <div className="row mt-5  ">
           <div className="col-lg-6 col-12 poppins">
@@ -340,7 +340,7 @@ const AboutUS = () => {
             </div>
           </div>
           <div className="col-lg-6 col-12 mt-lg-0 mt-4 d-flex align-items-center">
-            <img src={ourMission} className="w-100" alt="w8" />
+            <img src={ourMission} className="w-100" alt="contract work" />
           </div>
         </div>
       </div>
@@ -348,7 +348,7 @@ const AboutUS = () => {
       <div className="container-fluid poppins  mt-4">
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-6 col-sm-6 col-12 p-0">
-            <img src={Experienced} className="w-100" alt="" />
+            <img src={Experienced} className="w-100" alt="Grapetask experts" />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-6 col-12 oringwhite ps-lg-5 ps-md-4">
             <h3 className=" font-40 fw-semibold specialized-line font-Garamond">
