@@ -11,7 +11,7 @@ const Team = () => {
             Client Opinions & Reviews
           </h3>
           <div className="d-flex justify-content-center">
-            <img src={line} className="text-center" alt="" />
+            <img src={line} className="text-center" alt="grapetask" />
           </div>
           <Testomonial />
         </div>
