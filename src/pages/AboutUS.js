@@ -11,6 +11,7 @@ import ourMission from "../assets/OurMission.webp";
 import line from "../assets/line.webp";
 import videoImg from "../assets/aboutSlideImg.webp";
 import videoPlay from "../assets/VideoPlay.webp";
+import CommonHelmet from './CommonHelmet';
 
 import skill from "../assets/skillProvider.webp";
 import support from "../assets/support.webp";
@@ -38,6 +39,14 @@ const AboutUS = () => {
   }, []);
   return (
     <>
+    <CommonHelmet />
+         <Helmet>
+           <title></title>
+           <meta name="description" content="" />
+           <meta name="keywords" content="About us , " />
+           <link rel="canonical" href="https://www.grapetask.co/aboutus" />
+           </Helmet>
+
       <Navbar SecondNav="none" />
       {/* <div className="container-fluid Innovativesection"> */}
       <div className="container-fluid Innovativesection py-lg-0 py-md-0 py-5">
