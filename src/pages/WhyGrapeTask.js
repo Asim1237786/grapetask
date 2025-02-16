@@ -36,7 +36,7 @@ const WhyGrapeTask = () => {
         className="container-fluid position-relative p-lg-5 p-md-5 p-sm-4 p-3  "
         style={{ backgroundColor: "#F6F6F6" }}
       >
-        <h3 className="text-center font-40 fw-medium cocon">Why GrapeTask</h3>
+        <h2 className="text-center font-40 fw-medium cocon">Why Work with Grapetask?</h2>
         <div className="d-flex justify-content-center">
           <img src={lines} className="text-center" alt="" />
         </div>
@@ -55,8 +55,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Earning Potential </h5>
                   <p className="font-14 mb-0">
-                    Leverage your expertise to attract high-paying clients and
-                    increase your income potential..
+                  Maximize your income with our freelance marketplace. Tap into global outsourcing opportunities and achieve financial freedom by working on high-paying projects that match your skills.
                   </p>
                 </div>
               </div>
@@ -71,8 +70,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Flexibility </h5>
                   <p className="font-14 mb-0">
-                    Enjoy the freedom to choose your own schedule, work from
-                    anywhere, and achieve a better work-life balance.
+                  Enjoy unmatched flexibility with our freelance marketplace. Choose projects that fit your schedule. Experience outsourcing at its best while maintaining financial freedom and a balanced lifestyle.
                   </p>
                 </div>
               </div>
@@ -87,8 +85,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Independence </h5>
                   <p className="font-14 mb-0">
-                    Be your own boss, make decisions, and have full control over
-                    your career path..
+                  Take control of your career with our freelance marketplace. Outsourcing allows you to work independently, set your rates, and achieve financial freedom on your own terms.
                   </p>
                 </div>
               </div>
@@ -103,8 +100,8 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Work-Life Balance </h5>
                   <p className="font-14 mb-0">
-                    Prioritize personal commitments, avoid long commutes, and
-                    have more time for family and hobbies.{" "}
+                  Achieve work-life balance with our freelance marketplace. Outsourcing gives you the power to work from anywhere, ensuring financial freedom without sacrificing personal time.
+                  {" "}
                   </p>
                 </div>
               </div>
@@ -119,9 +116,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Skill Development </h5>
                   <p className="font-14 mb-0">
-                    Continuously learn and adapt to new projects, technologies,
-                    and client requirements, enhancing your skills and staying
-                    relevant..
+                  Enhance your skills through diverse projects on our freelance marketplace. Outsourcing exposes you to new challenges, helping you grow while working towards financial freedom.
                   </p>
                 </div>
               </div>
@@ -136,8 +131,8 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Variety of Projects</h5>
                   <p className="font-14 mb-0">
-                    Explore diverse projects and clients across industries,
-                    expanding your skills and professional network..{" "}
+                   Explore a variety of projects on our freelance marketplace. Outsourcing offers endless opportunities, ensuring financial freedom and the chance to work on what truly interests you.
+                  {" "}
                   </p>
                 </div>
               </div>
@@ -148,20 +143,19 @@ const WhyGrapeTask = () => {
       <div className="container-fluid mt-lg-5 mt-md-4 mt-3 px-lg-5 px-md-3 poppins  ">
         <div className="container-lg container-fluid">
           <div className="row justify-content-between">
-            <h1 className="text-center font-40 fw-medium cocon">
-              Boost every part of your business -{" "}
-              <br className="d-lg-block d-none" /> from proposal to payment
-            </h1>
+            <h3 className="text-center font-40 fw-medium cocon">
+              Grow Your Business at Every Step-{" "}
+              <br className="d-lg-block d-none" /> From Pitch to Payment
+            </h3>
             <div className="d-flex justify-content-center">
               <img src={lines} className="text-center" alt="" />
             </div>
             <div className="col-lg-5 col-12 align-self-center mt-3">
-              <h2 className="font-30 font-500 blackcolor poppins">
-                On-point proposals
-              </h2>
+              <h4 className="font-30 font-500 blackcolor poppins">
+               Perfect Proposals That Win Clients
+              </h4>
               <p className="font-16 poppins textcolorgray">
-                Use smart proposals that also seamlessly generate contracts,
-                collect deposits, and so much more.
+              Create winning proposals on our freelance marketplace. Impress clients, secure projects, and move closer to financial freedom with effective outsourcing solutions.
               </p>
               <Link className="colororing font-14 poppins">
                 Take a Closer Look <FaChevronRight />
@@ -176,13 +170,12 @@ const WhyGrapeTask = () => {
                   alt=""
                 />
                 <p className="font-20 poppins textgray">Proposal</p>
-                <h3 className="font-28 blackcolor poppins ">
-                  Let’s work togather!
-                </h3>
+                <h5 className="font-28 blackcolor poppins ">
+                 Send Winning Proposals
+                </h5>
                 <p className="font-18 poppins textgray">Hi, John!</p>
                 <p className="font-18 poppins textgray">
-                  Thanks for telling me about your project. I’m delighted to
-                  share this proposal with you!
+                Create and send powerful proposals fast. Win projects and grow on our freelance marketplace.
                 </p>
                 <img src={proposl} className="w-100" alt="w8" />
               </div>
@@ -201,12 +194,11 @@ const WhyGrapeTask = () => {
               </div>
             </div>
             <div className="col-lg-5 col-12 align-self-center mt-lg-0 mt-4">
-              <h2 className="font-30 font-500 blackcolor poppins">
-                Contracts ready to sign
-              </h2>
+              <h4 className="font-30 font-500 blackcolor poppins">
+              Instant Contract Approval
+              </h4>
               <p className="font-16 poppins textcolorgray">
-                Easily edit and share pre-populated contracts that build secure,
-                fair relationships between you and your clients.
+              Get contracts signed in minutes. Our freelance marketplace streamlines outsourcing, letting you focus on projects and financial freedom instead of paperwork.
               </p>
               <Link className="colororing font-14 poppins">
                 Take a Closer Look <FaChevronRight />
@@ -215,13 +207,11 @@ const WhyGrapeTask = () => {
           </div>
           <div className="row justify-content-between">
             <div className="col-lg-5 col-12 align-self-center mt-lg-0 mt-4">
-              <h2 className="font-30  font-500 blackcolor poppins">
-                Seamless invoicing & payments
-              </h2>
+              <h4 className="font-30  font-500 blackcolor poppins">
+               Easy Invoicing & Secure Payments
+              </h4>
               <p className="font-16  poppins textcolorgray">
-                Customize and automate invoices and accept payments quickly and
-                securely, in any currency, via bank transfer, credit card, or
-                PayPal.
+              Send invoices and get paid fast. Our freelance marketplace simplifies outsourcing, ensuring financial freedom with secure and hassle-free transactions.
               </p>
               <Link className="colororing font-14 poppins">
                 Take a Closer Look <FaChevronRight />
@@ -230,10 +220,10 @@ const WhyGrapeTask = () => {
 
             <div className="col-lg-5 col-12  mt-lg-5 mt-4">
               <div className="mt-lg-5 togather p-lg-5 p-md-4 p-3">
-                <h5 className="font-28 font-500 blackcolor poppins">Invoice</h5>
+                <h5 className="font-28 font-500 blackcolor poppins">Easy Invoicing
+                </h5>
                 <p className="font-18 poppins textgray ">
-                  Use smart proposals that also seamlessly generate contracts,
-                  collect deposits, and.
+                Send invoices effortlessly. Our freelance marketplace simplifies payments and boosts cash flow.
                 </p>
                 <img src={proposl} className="w-100" alt="w8" />
                 <h5 className="mt-lg-4 mt-md-2 mt-2 font-20 poppins textgray">
