@@ -7,6 +7,7 @@ import thnks from "../assets/thanks.webp";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import lines from "../assets/line.webp";
+import CommonHelmet from './CommonHelmet';
 import { Link } from "react-router-dom";
 import { SiFuturelearn } from "react-icons/si";
 import { FaChevronRight, FaCode, FaProjectDiagram } from "react-icons/fa";
@@ -16,6 +17,14 @@ import Independence from "../assets/Independence.webp";
 const WhyGrapeTask = () => {
   return (
     <>
+    <CommonHelmet />
+             <Helmet>
+               <title></title>
+               <meta name="description" content="" />
+               <meta name="keywords" content=" " />
+               <link rel="canonical" href="https://www.grapetask.co/whygrapetask" />
+             </Helmet>
+
       <Navbar SecondNav="none" />
       <div className="container-fluid pt-2 px-3 why-grape-herosection">
         <div className="row h-100">
