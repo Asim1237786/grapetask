@@ -19,9 +19,9 @@ const WhyGrapeTask = () => {
     <>
     <CommonHelmet />
              <Helmet>
-               <title></title>
-               <meta name="description" content="" />
-               <meta name="keywords" content=" " />
+               <title>Why GrapeTask – The Best Freelancing & Outsourcing Platform</title>
+               <meta name="description" content="Hire top freelancers on GrapeTask and get work done with security, flexibility, and value. See why businesses and freelancers trust our platform to collaborate." />
+               <meta name="keywords" content="GrapeTask , freelance marketplace ,outsourcing ,best freelance services ,project outsourcing" />
                <link rel="canonical" href="https://www.grapetask.co/whygrapetask" />
              </Helmet>
 
@@ -77,7 +77,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Flexibility </h5>
                   <p className="font-14 mb-0">
-                  Enjoy unmatched flexibility with our freelance marketplace. Choose projects that fit your schedule. Experience outsourcing at its best while maintaining financial freedom and a balanced lifestyle.
+                  Enjoy unmatched flexibility with our best freelance services. Choose projects that fit your schedule. Experience outsourcing at its best while maintaining financial freedom and a balanced lifestyle.
                   </p>
                 </div>
               </div>
