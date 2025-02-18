@@ -41,9 +41,9 @@ const AboutUS = () => {
     <>
     <CommonHelmet />
          <Helmet>
-           <title></title>
-           <meta name="description" content="" />
-           <meta name="keywords" content="About us , " />
+           <title>About Us|GrapeTask Connecting world's businesses and Talent</title>
+           <meta name="description" content="Grapetask mission is to change how the world works together. we connects businesses with freelancers life-changing  digital services in 500+ categories" />
+           <meta name="keywords" content="About us ,Grapetask ,hire freelancers ,freelance marketplace ,online marketplace" />
            <link rel="canonical" href="https://www.grapetask.co/aboutus" />
            </Helmet>
 
@@ -328,7 +328,7 @@ const AboutUS = () => {
                     alt="w8"
                   />
                   <p className="ms-3 fw-semibold mb-0 font-16">
-                    Provide Skills{" "}
+                    Skill Based{" "}
                     <br className="d-xl-none d-lg-block d-none" />
                     Services
                   </p>
