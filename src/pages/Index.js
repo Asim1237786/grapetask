@@ -429,7 +429,7 @@ const Index = () => {
             <Grapetask
               imges={post}
               heading="Post a Job & Hire Top Talent"
-              para="GrapeTask connects you with top freelancers. Post your job, review proposals, and hire the best in minutes"
+              para="GrapeTask connects you with top freelancers. Post your job, review proposals, and hire experts in minutes"
             />
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-12 mt-lg-5 mt-md-5 mt-4">
