@@ -364,7 +364,7 @@ const AboutUS = () => {
             Work with Experienced Pros
             </h3>
             <p className="font-18  mt-lg-5 mt-md-4 mt-2">
-            At Grapetask, we specialize in connecting businesses with skilled freelancers through our trusted freelance marketplace. With years of experience in outsourcing services, we understand the needs of both employers and freelancers. Our online freelancing platform makes it easy to hire freelancers for any project, big or small.
+            At <a href="https://www.grapetask.co/whygrapetask">Grapetask</a>, we specialize in connecting businesses with skilled freelancers through our trusted freelance marketplace. With years of experience in outsourcing services, we understand the needs of both employers and freelancers. Our online freelancing platform makes it easy to hire freelancers for any project, big or small.
             </p>
             <div className="row pt-lg-5 pt-md-4 pt-3 ">
               <div className="col-lg-8 col-md-9 col-12">
