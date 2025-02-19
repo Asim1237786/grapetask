@@ -11,7 +11,7 @@ import ourMission from "../assets/OurMission.webp";
 import line from "../assets/line.webp";
 import videoImg from "../assets/aboutSlideImg.webp";
 import videoPlay from "../assets/VideoPlay.webp";
-import CommonHelmet from './CommonHelmet';
+import CommonHelmet from "./CommonHelmet.js";
 
 import skill from "../assets/skillProvider.webp";
 import support from "../assets/support.webp";
@@ -39,13 +39,13 @@ const AboutUS = () => {
   }, []);
   return (
     <>
-    <CommonHelmet />
-         <Helmet>
-           <title>About Us|GrapeTask Connecting world's businesses and Talent</title>
-           <meta name="description" content="Grapetask mission is to change how the world works together. we connects businesses with freelancers life-changing  digital services in 500+ categories" />
-           <meta name="keywords" content="About us ,Grapetask ,hire freelancers ,freelance marketplace ,online marketplace" />
-           <link rel="canonical" href="https://www.grapetask.co/aboutus" />
-           </Helmet>
+      <CommonHelmet
+        title="About Us | GrapeTask Connecting World's Businesses and Talent"
+        name="description"
+        content="Grapetask mission is to change how the world works together. We connect businesses with freelancers offering life-changing digital services in 500+ categories."
+        keywords="About us, Grapetask, hire freelancers, freelance marketplace, online marketplace"
+        canonical="https://www.grapetask.co/aboutus"
+      />
 
       <Navbar SecondNav="none" />
       {/* <div className="container-fluid Innovativesection"> */}
@@ -126,8 +126,8 @@ const AboutUS = () => {
         </div>
 
         <h1 className="text-center fw-semibold font-38 poppins">
-         About us
-          <br /> We Connecting Talent With Opportunity 
+          About us
+          <br /> We Connecting Talent With Opportunity
         </h1>
       </div>
       {/* ================== MOBILE VERSION VIDEO SLIDER =============== */}
@@ -145,7 +145,11 @@ const AboutUS = () => {
               height={80}
               alt="w8"
             />
-            <img src={videoImg} alt="best freelance services marketplace" className="w-100 rounded-4" />
+            <img
+              src={videoImg}
+              alt="best freelance services marketplace"
+              className="w-100 rounded-4"
+            />
           </div>
 
           {/* Modal */}
@@ -289,32 +293,36 @@ const AboutUS = () => {
             <div className="d-flex align-items-center mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3 ">
-              Providing a trusted freelance marketplace for people to find self-employed jobs and freelance jobs online.
+                Providing a trusted freelance marketplace for people to find
+                self-employed jobs and freelance jobs online.
               </p>
             </div>
             <div className="d-flex align-items-center mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3 ">
-              Making outsourcing services easy and efficient for businesses of all sizes.
-              {" "}
+                Making outsourcing services easy and efficient for businesses of
+                all sizes.{" "}
               </p>
             </div>
             <div className="d-flex align-items-center mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3 ">
-              We prioritize safety with secure payments, building trust on our freelancing website.
+                We prioritize safety with secure payments, building trust on our
+                freelancing website.
               </p>
             </div>
             <div className="d-flex align-items-center mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3">
-              Helping companies hire freelancers easily on the best online marketplace.
+                Helping companies hire freelancers easily on the best online
+                marketplace.
               </p>
             </div>
             <div className="d-flex mt-3">
               <FiCheckCircle className="colororing flex-shrink-0" size={16} />
               <p className="mb-0 font-16 takegraycolor ms-3 ">
-              We are dedicated to creating self-employed jobs, supporting growth, and encouraging independence.
+                We are dedicated to creating self-employed jobs, supporting
+                growth, and encouraging independence.
               </p>
             </div>
             <div className="container-fluid mt-3">
@@ -328,8 +336,7 @@ const AboutUS = () => {
                     alt="w8"
                   />
                   <p className="ms-3 fw-semibold mb-0 font-16">
-                    Skill Based{" "}
-                    <br className="d-xl-none d-lg-block d-none" />
+                    Skill Based <br className="d-xl-none d-lg-block d-none" />
                     Services
                   </p>
                 </div>
@@ -361,10 +368,15 @@ const AboutUS = () => {
           </div>
           <div className="col-lg-6 col-md-6 col-sm-6 col-12 oringwhite ps-lg-5 ps-md-4">
             <h3 className=" font-40 fw-semibold specialized-line font-Garamond">
-            Work with Experienced Pros
+              Work with Experienced Pros
             </h3>
             <p className="font-18  mt-lg-5 mt-md-4 mt-2">
-            At <a href="https://www.grapetask.co/whygrapetask">Grapetask</a>, we specialize in connecting businesses with skilled freelancers through our trusted freelance marketplace. With years of experience in outsourcing services, we understand the needs of both employers and freelancers. Our online freelancing platform makes it easy to hire freelancers for any project, big or small.
+              At <a href="https://www.grapetask.co/whygrapetask">Grapetask</a>,
+              we specialize in connecting businesses with skilled freelancers
+              through our trusted freelance marketplace. With years of
+              experience in outsourcing services, we understand the needs of
+              both employers and freelancers. Our online freelancing platform
+              makes it easy to hire freelancers for any project, big or small.
             </p>
             <div className="row pt-lg-5 pt-md-4 pt-3 ">
               <div className="col-lg-8 col-md-9 col-12">

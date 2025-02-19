@@ -6,7 +6,7 @@ import img2 from "../assets/Client-logo2.webp";
 import img3 from "../assets/Client-logo3.webp";
 import img4 from "../assets/Client-logo4.webp";
 import img5 from "../assets/Client-logo5.webp";
-import CommonHelmet from './CommonHelmet';
+import CommonHelmet from './CommonHelmet.js';
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
@@ -32,13 +32,13 @@ const Blog = () => {
   }, []);
   return (
     <>
-    <CommonHelmet />
-                 <Helmet>
-                   <title>GrapeTask Blog – Insights, Tips, Trends and Latest Updates</title>
-                   <meta name="description" content="Discover the latest news, announcements, insights, tips and updates on GrapeTask Blog. Explore productivity hacks, industry news, and expert advice"/>
-                   <meta name="keywords" content="Blog ,Freelance Marketplace ,latest news ,tips and updates" />
-                   <link rel="canonical" href="https://www.grapetask.co/blog" />
-                 </Helmet>
+    <CommonHelmet
+        title="About Us | GrapeTask Connecting World's Businesses and Talent"
+        name="description"
+        content="Grapetask mission is to change how the world works together. We connect businesses with freelancers offering life-changing digital services in 500+ categories."
+        keywords="About us, Grapetask, hire freelancers, freelance marketplace, online marketplace"
+        canonical="https://www.grapetask.co/aboutus"
+      />
       <Navbar SecondNav="none" />
       <div>
         <div className="container-fluid blogVideoSection py-lg-0 py-md-0 py-5">
@@ -200,7 +200,7 @@ const Blog = () => {
               alteration in some form, by injected oir which don't look even
               slightly believable.
             </p>
-            <a href="" className="colororing font-16">
+            <a href="/" className="colororing font-16">
               Read More
             </a>
           </div>
