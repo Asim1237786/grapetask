@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /Blogopen
+
+Sitemap: https://www.grapetask.co/sitemap.xml
