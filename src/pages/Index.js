@@ -58,6 +58,7 @@ import videoImg from "../assets/VideiImgMbl.webp";
 import { useNavigate } from "react-router-dom";
 import { geAllGigs } from "../redux/slices/allGigsSlice";
 import Slider from "react-slick";
+import CommonHelmet from './CommonHelmet.js';
 import WelcomeModal from "../components/WelcomeModal";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
@@ -182,6 +183,14 @@ const Index = () => {
   };
   return (
     <>
+<CommonHelmet 
+title="GrapeTask | World's No: 1 Outsourcing Freelance Marketplace"
+description="GrapeTask is a premium freelance marketplace solution. We connect businesses with expert freelancers that brighten up your freelancing career with ease"
+canonical="https://www.grapetask.co/"
+keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,hire expertss"
+/>
+
+
       <WelcomeModal />
       <Navbar SecondNav="none" />
       <section className="herosection d-flex align-items-center py-lg-0 py-md-0 py-5">

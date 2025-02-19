@@ -8,6 +8,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './redux/store/store';
+import { HelmetProvider } from "react-helmet-async";
 // import { store, persistor  } from './redux/store/store';
 // import { PersistGate } from 'redux-persist/integration/react';
 
@@ -18,10 +19,10 @@ root.render(
     <BrowserRouter>
       <Provider store={store}>
         {/* <PersistGate loading={null} persistor={persistor}> */}
-
+        <HelmetProvider>
           <App />
         {/* </PersistGate> */}
-
+        </HelmetProvider>
       </Provider>
 
     </BrowserRouter>
@@ -30,3 +31,14 @@ root.render(
 
 
 reportWebVitals();
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import { HelmetProvider } from "react-helmet-async";
+// import App from "./App";
+
+// ReactDOM.render(
+//   <HelmetProvider>
+//     <App />
+//   </HelmetProvider>,
+//   document.getElementById("root")
+// );
