@@ -31,7 +31,7 @@ const WhyGrapeTask = () => {
           <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center px-lg-4 px-3">
             <h1 className="font-40 fw-medium cocon">
               How GrapeTask Can
-              <span className="colororing">Help You Succeed</span>
+              <span className="colororing"> Help You Succeed</span>
               <br className="d-xl-block d-none" />
               in Freelancing?
             </h1>
