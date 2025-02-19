@@ -44,7 +44,7 @@ const AboutUS = () => {
         name="description"
         content="Grapetask mission is to change how the world works together. We connect businesses with freelancers offering life-changing digital services in 500+ categories."
         keywords="About us, Grapetask, hire freelancers, freelance marketplace, online marketplace"
-        canonical="https://www.grapetask.co/aboutus"
+        canonical="https://www.grapetask.co/whygrapetask"
       />
 
       <Navbar SecondNav="none" />
