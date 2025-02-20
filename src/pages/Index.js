@@ -188,6 +188,7 @@ title="GrapeTask | World's No: 1 Outsourcing Freelance Marketplace"
 description="GrapeTask is a premium freelance marketplace solution. We connect businesses with expert freelancers that brighten up your freelancing career with ease"
 canonical="https://www.grapetask.co/"
 keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,hire expertss"
+
 />
 
 

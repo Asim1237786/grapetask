@@ -6,7 +6,7 @@ import img2 from "../assets/Client-logo2.webp";
 import img3 from "../assets/Client-logo3.webp";
 import img4 from "../assets/Client-logo4.webp";
 import img5 from "../assets/Client-logo5.webp";
-import CommonHelmet from './CommonHelmet.js';
+import CommonHelmet from "./CommonHelmet.js";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
@@ -32,12 +32,12 @@ const Blog = () => {
   }, []);
   return (
     <>
-    <CommonHelmet
-        title="About Us | GrapeTask Connecting World's Businesses and Talent"
+      <CommonHelmet
+        title=" Blog | GrapeTask Connecting World's Businesses and Talent"
         name="description"
         content="Grapetask mission is to change how the world works together. We connect businesses with freelancers offering life-changing digital services in 500+ categories."
-        keywords="About us, Grapetask, hire freelancers, freelance marketplace, online marketplace"
-        canonical="https://www.grapetask.co/aboutus"
+        keywords="blog, Grapetask, hire freelancers, freelance marketplace, online marketplace"
+        canonical="https://www.grapetask.co/blog"
       />
       <Navbar SecondNav="none" />
       <div>
@@ -121,7 +121,7 @@ const Blog = () => {
             </button>
           </div>
           <h1 className="text-center fw-semibold font-38 poppins">
-             Freelance Marketplace Blog!
+            Freelance Marketplace Blog!
             <br /> Insights, Tips & Trends from GrapeTask
           </h1>
         </div>

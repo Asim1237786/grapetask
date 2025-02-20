@@ -32,9 +32,8 @@ const CommonHelmet = ({ title, description, keywords, canonical }) => {
       <meta name="gtm:layout_service" content="true" />
       <meta name="gtm:country" content="Pakistan" />
       <meta name="gtm:qualtrics_enabled" content="true" />
-
       {/* Favicon and Icons */}
-      <link rel="icon" href="/logo.webp" />
+      <link rel="icon" href="/logo.png" />
       <link rel="apple-touch-icon" href="/logo.png" />
       <link rel="manifest" href="/manifest.json" />
     </Helmet>
