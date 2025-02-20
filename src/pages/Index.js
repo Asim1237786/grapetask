@@ -58,7 +58,7 @@ import videoImg from "../assets/VideiImgMbl.webp";
 import { useNavigate } from "react-router-dom";
 import { geAllGigs } from "../redux/slices/allGigsSlice";
 import Slider from "react-slick";
-import CommonHelmet from './CommonHelmet.js';
+import CommonHelmet from "./CommonHelmet.js";
 import WelcomeModal from "../components/WelcomeModal";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
@@ -183,14 +183,12 @@ const Index = () => {
   };
   return (
     <>
-<CommonHelmet 
-title="GrapeTask | World's No: 1 Outsourcing Freelance Marketplace"
-description="GrapeTask is a premium freelance marketplace solution. We connect businesses with expert freelancers that brighten up your freelancing career with ease"
-canonical="https://www.grapetask.co/"
-keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,hire expertss"
-
-/>
-
+      <CommonHelmet
+        title="GrapeTask | World's No: 1 Outsourcing Freelance Marketplace"
+        description="GrapeTask is a premium freelance marketplace solution. We connect businesses with expert freelancers that brighten up your freelancing career with ease"
+        canonical="https://www.grapetask.co/"
+        keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,hire expertss"
+      />
 
       <WelcomeModal />
       <Navbar SecondNav="none" />
@@ -272,12 +270,15 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
           <div className="row justify-content-center text-center">
             <div className="col-lg-8 col-12">
               <h2 className="font-70 font-500 cocon" style={{ color: "white" }}>
-                Find the Business.<span className="colororing"> Get Paid. </span>
+                Find the Business.
+                <span className="colororing"> Get Paid. </span>
                 <br />
                 Grow Your <span className="colororing">Career </span>{" "}
               </h2>
               <p className=" font-18 text-white poppins">
-              Join a top freelance marketplace and connect with clients worldwide. New job postings every day—browse, apply, and start earning. Work from anytime, anywhere.
+                Join a top freelance marketplace and connect with clients
+                worldwide. New job postings every day—browse, apply, and start
+                earning. Work from anytime, anywhere.
               </p>
               <div
                 className="row  justify-conten-center mt-2 poppins position-relative "
@@ -424,11 +425,15 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
         div
         className="container-fluid esaysection position-relative pt-lg-5 pt-md-4 pt-3"
       >
-        <img src={done} className="w-100 position-absolute doneimg" alt="Outsourcing" />
+        <img
+          src={done}
+          className="w-100 position-absolute doneimg"
+          alt="Outsourcing"
+        />
 
         <div className="d-flex justify-content-center flex-column mt-5">
           <h1 className="text-center font-28 cocon">
-          GrapeTask World's No. 1 Outsourcing Freelance Marketplace
+            GrapeTask World's No. 1 Outsourcing Freelance Marketplace
           </h1>
           <div className="d-flex justify-content-center">
             <img src={line} className="text-center" alt="" />
@@ -475,15 +480,16 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
       <div className="container-fluid p-lg-5 p-md-5 p-sm-4 p-3 ">
         <div className="row poppins justify-content-center ">
           <div className="col-lg-6 col-md-6 col-12 d-flex justify-content-lg-start justify-content-md-center justify-content-center">
-            <img src={goodcmpny} className="w-75" alt="hire freelancers with grapetask" />
+            <img
+              src={goodcmpny}
+              className="w-75"
+              alt="hire freelancers with grapetask"
+            />
           </div>
           <div className="col-lg-6 col-md-6 col-12 align-self-center">
             <h2 className="fw-normal font-38">
-             Success Happens{" "}
-              <span className="colororing">
-                {" "}
-                When The Right People Connect
-              </span>
+              Success Happens{" "}
+              <span className="colororing"> When The Right People Connect</span>
             </h2>
             <div className="container-fluid">
               <div className="row">
@@ -498,7 +504,8 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
                         className="font-18 mb-0"
                         style={{ color: "rgba(102, 112, 133, 1)" }}
                       >
-                        Connect with skilled professionals ready to take on your next big project
+                        Connect with skilled professionals ready to take on your
+                        next big project
                       </p>
                     </div>
                   </div>
@@ -512,7 +519,8 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
                         className="font-18 mb-0"
                         style={{ color: "rgba(102, 112, 133, 1)" }}
                       >
-                        Manage contracts, track progress, and pay securely all in one simple platform
+                        Manage contracts, track progress, and pay securely all
+                        in one simple platform
                       </p>
                     </div>
                   </div>
@@ -525,7 +533,8 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
                         className="font-18 mb-0"
                         style={{ color: "rgba(102, 112, 133, 1)" }}
                       >
-                        A reliable outsourcing website to find skilled experts and scale your business
+                        A reliable outsourcing website to find skilled experts
+                        and scale your business
                       </p>
                     </div>
                   </div>
@@ -586,7 +595,9 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
           className=" position-absolute chooseimg end-0"
           alt=""
         />
-        <h3 className="font-28 text-center cocon ">Browse & Choose Categories</h3>
+        <h3 className="font-28 text-center cocon ">
+          Browse & Choose Categories
+        </h3>
         {/* =========== DESKTOP VERSION CATEGORY SLIDER ============= */}
 
         <div className="row justify-content-center poppins d-lg-flex d-md-flex d-sm-flex d-none">
@@ -932,7 +943,7 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
             <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center">
               <div>
                 <h3 className="font-28 font-500 cocon">
-                   Why Businesses Trust GrapeTask
+                  Why Businesses Trust GrapeTask
                 </h3>
                 <div className="mt-3">
                   <div className="mt-4 d-flex ">
@@ -942,7 +953,8 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
                         <span></span>Verified Professionals
                       </h5>
                       <p className="font-16">
-                       Review expert portfolios, client feedback, and credentials before hiring.
+                        Review expert portfolios, client feedback, and
+                        credentials before hiring.
                       </p>
                     </div>
                   </div>
@@ -953,7 +965,8 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
                         <span></span>No start-up costs
                       </h5>
                       <p className="font-16">
-                      Post your job, interview candidates, and only pay when you're satisfied.
+                        Post your job, interview candidates, and only pay when
+                        you're satisfied.
                       </p>
                     </div>
                   </div>
@@ -964,7 +977,8 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
                         <span></span>Secure Transactions
                       </h5>
                       <p className="font-16">
-                      We protect your payments and data with trusted security measures.
+                        We protect your payments and data with trusted security
+                        measures.
                       </p>
                     </div>
                   </div>
@@ -975,7 +989,8 @@ keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,h
                         <span></span>Hassle-Free Hiring
                       </h5>
                       <p className="font-16">
-                      A simple, intuitive platform designed for smooth collaboration.
+                        A simple, intuitive platform designed for smooth
+                        collaboration.
                       </p>
                     </div>
                   </div>
