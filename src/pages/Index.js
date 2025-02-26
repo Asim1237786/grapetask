@@ -448,7 +448,7 @@ const Index = () => {
             <Grapetask
               imges={hire}
               heading="For Freelancers – Start Earning Today"
-              para="Looking for the best freelance marketplace to kickstart your career? GrapeTask is designed to help you find freelance jobs without struggling through high competition or hidden fees."
+              para="GrapeTask is the best freelance marketplace and is designed to help you find freelance jobs without struggling through high competition or hidden fees."
             />
           </div>
         </div>
