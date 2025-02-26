@@ -270,16 +270,13 @@ const Index = () => {
           <div className="row justify-content-center text-center">
             <div className="col-lg-8 col-12">
               <h2 className="font-70 font-500 cocon" style={{ color: "white" }}>
-                Find the Business.
-                <span className="colororing"> Get Paid. </span>
+                Hire Skilled 
+                <span className="colororing">Freelancers</span>
                 <br />
-                Grow Your <span className="colororing">Career </span>{" "}
+                or Find <span className="colororing">Freelance Jobs</span>{" "}
               </h2>
               <p className=" font-18 text-white poppins">
-                Join a top freelance marketplace and connect with clients
-                worldwide. New job postings every day—browse, apply, and start
-                earning. Work from anytime, anywhere.
-              </p>
+              Are you looking for an affordable freelance marketplace with low commission rates? GrapeTask is the ultimate Fiverr alternative designed to help businesses hire skilled freelancers and professionals find freelance jobs without hassle. Whether you’re a startup, small business, or an individual looking for top-quality services, our fast & easy hiring platform makes freelancing effortless</p>
               <div
                 className="row  justify-conten-center mt-2 poppins position-relative "
                 style={{ zIndex: "99" }}
@@ -433,7 +430,7 @@ const Index = () => {
 
         <div className="d-flex justify-content-center flex-column mt-5">
           <h1 className="text-center font-28 cocon">
-            GrapeTask World's No. 1 Outsourcing Freelance Marketplace
+            Welcome to GrapeTask – The Best Fiverr Alternative
           </h1>
           <div className="d-flex justify-content-center">
             <img src={line} className="text-center" alt="" />
@@ -443,15 +440,15 @@ const Index = () => {
           <div className="col-lg-4 col-md-4 col-sm-6 col-12">
             <Grapetask
               imges={post}
-              heading="Post a Job & Hire Top Talent"
-              para="GrapeTask connects you with top freelancers. Post your job, review proposals, and hire experts in minutes"
+              heading="For Clients – Hire the Best Talent in Minutes"
+              para="Need experts for your next project? With GrapeTask, hiring freelancers is fast, secure, and budget-friendly."
             />
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-12 mt-lg-5 mt-md-5 mt-4">
             <Grapetask
               imges={hire}
-              heading="Find Experts, Get Work Done"
-              para="Connect with skilled freelancers across various industries. Hire experts who deliver quality work on time"
+              heading="For Freelancers – Start Earning Today"
+              para="Looking for the best freelance marketplace to kickstart your career? GrapeTask is designed to help you find freelance jobs without struggling through high competition or hidden fees."
             />
           </div>
         </div>
@@ -459,8 +456,8 @@ const Index = () => {
           <div className="col-lg-4 col-md-4 col-sm-6 mt-lg-0 mt-md-0 mt-sm-0 mt-4 col-12">
             <Grapetask
               imges={get}
-              heading="Accomplish Tasks"
-              para="Browse skilled freelancers, place an order, and get your work delivered on time guaranteed"
+              heading="Work Smarter, Earn More"
+              para="Whether you're a freelance graphic designer, writer, developer, or marketer, GrapeTask helps you build a successful freelancing career."
             />
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-12  mt-lg-5 mt-md-5 mt-4">
