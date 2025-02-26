@@ -940,18 +940,17 @@ const Index = () => {
             <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center">
               <div>
                 <h3 className="font-28 font-500 cocon">
-                  Why Businesses Trust GrapeTask
+                 Why Choose GrapeTask?
                 </h3>
                 <div className="mt-3">
                   <div className="mt-4 d-flex ">
                     <img src={quality} width={30} height={39} alt="" />
                     <div className="ms-3">
                       <h5 className="font-20">
-                        <span></span>Verified Professionals
+                        <span></span>Free Bids for Freelancers
                       </h5>
                       <p className="font-16">
-                        Review expert portfolios, client feedback, and
-                        credentials before hiring.
+                       Get started without spending a penny
                       </p>
                     </div>
                   </div>
@@ -962,8 +961,7 @@ const Index = () => {
                         <span></span>No start-up costs
                       </h5>
                       <p className="font-16">
-                        Post your job, interview candidates, and only pay when
-                        you're satisfied.
+                       Post your projects for free and get work done without upfront fees.
                       </p>
                     </div>
                   </div>
@@ -983,11 +981,10 @@ const Index = () => {
                     <img src={UserCheck} width={30} height={30} alt="" />
                     <div className="ms-3">
                       <h5 className="font-20">
-                        <span></span>Hassle-Free Hiring
+                        <span></span>Find Clients Online
                       </h5>
                       <p className="font-16">
-                        A simple, intuitive platform designed for smooth
-                        collaboration.
+                       Connect with businesses actively looking for skilled freelancers.
                       </p>
                     </div>
                   </div>
