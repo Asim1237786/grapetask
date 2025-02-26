@@ -271,9 +271,9 @@ const Index = () => {
             <div className="col-lg-8 col-12">
               <h2 className="font-70 font-500 cocon" style={{ color: "white" }}>
                  Work Freely.
-                <span className="colororing">. Earn More</span>
+                <span className="colororing"> Earn More</span>
                 <br />
-                No<span className="colororing"> Extra Fees</span>{" "}
+                No Extra<span className="colororing"> Fees</span>{" "}
               </h2>
               <p className=" font-18 text-white poppins">
               Are you looking for an affordable freelance marketplace with low commission rates? GrapeTask is the ultimate Fiverr alternative designed to help businesses hire skilled freelancers and professionals find freelance jobs without hassle. Whether you’re a startup, small business, or an individual looking for top-quality services, our fast & easy hiring platform makes freelancing effortless</p>
