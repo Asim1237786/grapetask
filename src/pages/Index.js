@@ -593,7 +593,7 @@ const Index = () => {
           alt=""
         />
         <h3 className="font-28 text-center cocon ">
-          Browse & Choose Categories
+         Explore Top Freelance Services on Grapetask
         </h3>
         {/* =========== DESKTOP VERSION CATEGORY SLIDER ============= */}
 
@@ -947,10 +947,10 @@ const Index = () => {
                     <img src={quality} width={30} height={39} alt="" />
                     <div className="ms-3">
                       <h5 className="font-20">
-                        <span></span>Free Bids for Freelancers
+                        <span></span>Free Bids
                       </h5>
                       <p className="font-16">
-                       Get started without spending a penny
+                      Freelancers can bid on projects without any charges
                       </p>
                     </div>
                   </div>
@@ -1057,7 +1057,7 @@ const Index = () => {
         <div className="row px-4">
           <div className="col-lg-6 col-md-6 col-12 px-lg-4 px-3">
             <h6 className="poppins font-40 text-white fw-semibold">
-              Never Want to Miss Any Job News?
+            Subscribe to get the latest updates and tips.
             </h6>
           </div>
           <div className="col-lg-6 col-md-6 col-12 px-3">
