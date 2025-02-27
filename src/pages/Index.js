@@ -905,7 +905,7 @@ const Index = () => {
       <div className="container-fluid p-lg-5 p-md-5 p-sm-4 p-3 mt-4 position-relative overflow-hidden">
         <img src={real} className=" position-absolute realimg start-0" alt="" />
         <h3 className="text-center font-28 font-500 cocon">
-          Get It Done with Expert Freelancers
+         Find the Best Freelance Services for Your Needs
         </h3>
         <div className="d-flex justify-content-center">
           <img src={line} className="text-center" alt="" />
