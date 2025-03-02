@@ -530,8 +530,7 @@ const Index = () => {
                         className="font-18 mb-0"
                         style={{ color: "rgba(102, 112, 133, 1)" }}
                       >
-                        A reliable outsourcing website to find skilled experts
-                        and scale your business
+                       GrapeTask simplifies project outsourcing for businesses needing designers, content creators, or tech experts
                       </p>
                     </div>
                   </div>
