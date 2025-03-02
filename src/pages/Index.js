@@ -425,7 +425,7 @@ const Index = () => {
         <img
           src={done}
           className="w-100 position-absolute doneimg"
-          alt="Outsourcing"
+          alt="Freelancing platform in Pakistan"
         />
 
         <div className="d-flex justify-content-center flex-column mt-5">
@@ -493,7 +493,7 @@ const Index = () => {
                 <div className="col-lg-10 col-12 mt-4">
                   <div className="row">
                     <div className="col-2 d-flex justify-content-center">
-                      <img src={pic1} className="w-100" alt="w8" />
+                      <img src={pic1} className="w-100" alt="Online work marketplace" />
                     </div>
 
                     <div className="col-10">
@@ -589,7 +589,7 @@ const Index = () => {
         <img
           src={choose}
           className=" position-absolute chooseimg end-0"
-          alt=""
+          alt="Hire freelancers"
         />
         <h2 className="font-28 text-center cocon ">
          Explore Top Freelance Services on Grapetask
@@ -598,7 +598,7 @@ const Index = () => {
 
         <div className="row justify-content-center poppins d-lg-flex d-md-flex d-sm-flex d-none">
           <div className="d-flex justify-content-center mb-lg-0 mb-3">
-            <img src={line} className="text-center" alt="" />
+            <img src={line} className="text-center" alt="Best freelance platform" />
           </div>
 
           <div className="col-lg-3 col-md-6 col-12 mt-lg-5 mt-md-4 mt-sm-3 mt-2">
@@ -902,7 +902,7 @@ const Index = () => {
 
       {/*Make it Real with Freelancer section*/}
       <div className="container-fluid p-lg-5 p-md-5 p-sm-4 p-3 mt-4 position-relative overflow-hidden">
-        <img src={real} className=" position-absolute realimg start-0" alt="" />
+        <img src={real} className=" position-absolute realimg start-0" alt="Hire freelancers online" />
         <h3 className="text-center font-28 font-500 cocon">
          Find the Best Freelance Services for Your Needs
         </h3>
@@ -943,7 +943,7 @@ const Index = () => {
                 </h3>
                 <div className="mt-3">
                   <div className="mt-4 d-flex ">
-                    <img src={quality} width={30} height={39} alt="" />
+                    <img src={quality} width={30} height={39} alt="Post your projects" />
                     <div className="ms-3">
                       <h5 className="font-20">
                         <span></span>Free Bids
@@ -954,7 +954,7 @@ const Index = () => {
                     </div>
                   </div>
                   <div className="mt-4 d-flex">
-                    <img src={cost} width={30} height={30} alt="" />
+                    <img src={cost} width={30} height={30} alt="hire skilled freelancers" />
                     <div className="ms-3">
                       <h5 className="font-20">
                         <span></span>No start-up costs
@@ -1071,7 +1071,7 @@ const Index = () => {
                     placeholder="Enter your email address here..."
                   />
                 </div>
-                <img src={Line} width={4} height={30} alt="w8" />
+                <img src={Line} width={4} height={30} alt="Post your gigs" />
 
                 <div className="ms-3">
                   <button
