@@ -53,11 +53,11 @@ const Testomonial = () => {
             <div></div>
             <div className="" style={{ color: "rgba(102, 112, 133, 1)" }}>
               <p className="font-16">
-              Join thousands of satisfied clients and freelancers who trust GrapeTask .Our freelancing platform in Pakistan connects businesses with affordable freelancers for hire, delivering high-quality results every time. {" "}
+              Join thousands of satisfied clients and freelancers who trust Grape Task .Our freelancing platform in Pakistan connects businesses with affordable freelancers for hire, delivering high-quality results every time. {" "}
               </p>
 
               <p className="font-16">
-              Whether you need freelance designing services or expert technical support, GrapeTask ensures reliable project outsourcing with secure transactions.
+              Whether you need freelance designing services or expert technical support, Grape Task ensures reliable project outsourcing with secure transactions.
               </p>
 
               <p className="font-16">
