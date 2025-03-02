@@ -484,10 +484,10 @@ const Index = () => {
             />
           </div>
           <div className="col-lg-6 col-md-6 col-12 align-self-center">
-            <h2 className="fw-normal font-38">
+            <h3 className="fw-normal font-38">
               Success Happens{" "}
               <span className="colororing"> When The Right People Connect</span>
-            </h2>
+            </h3>
             <div className="container-fluid">
               <div className="row">
                 <div className="col-lg-10 col-12 mt-4">
@@ -591,9 +591,9 @@ const Index = () => {
           className=" position-absolute chooseimg end-0"
           alt=""
         />
-        <h3 className="font-28 text-center cocon ">
+        <h2 className="font-28 text-center cocon ">
          Explore Top Freelance Services on Grapetask
-        </h3>
+        </h2>
         {/* =========== DESKTOP VERSION CATEGORY SLIDER ============= */}
 
         <div className="row justify-content-center poppins d-lg-flex d-md-flex d-sm-flex d-none">
@@ -939,7 +939,7 @@ const Index = () => {
             <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center">
               <div>
                 <h3 className="font-28 font-500 cocon">
-                 Why Choose GrapeTask?
+                 Why GrapeTask? Your Best Choice for Freelancing
                 </h3>
                 <div className="mt-3">
                   <div className="mt-4 d-flex ">
@@ -949,7 +949,7 @@ const Index = () => {
                         <span></span>Free Bids
                       </h5>
                       <p className="font-16">
-                      Freelancers can bid on projects without any charges
+                      Bid on projects without any charges and start earning with zero investment
                       </p>
                     </div>
                   </div>
