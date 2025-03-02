@@ -43,7 +43,7 @@ const AboutUS = () => {
         title="Freelance Marketplace|No Commission, Work and Hire Online"
         name="description"
         content="GrapeTask is a leading freelance marketplace. Find clients online, hire freelancers, hire remotely, and enjoy project outsourcing, all with no commission fees"
-        keywords="About us ,Freelance Marketplace ,hire freelancers ,Freelance platforms with no commission ,project outsourcing "
+        keywords="About us ,Freelance Marketplace ,hire freelancers ,Freelance platforms with no commission ,outsourcing services"
         canonical="https://www.grapetask.co/aboutus"
       />
 
