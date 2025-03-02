@@ -539,10 +539,10 @@ const Index = () => {
             </div>
             <button
               type="button "
-              onClick={() => navigate("/aboutus")}
+              onClick={() => navigate("/signup")}
               className="btn-fill mt-4 ms-lg-2 ms-md-2 ms-sm-2 ms-0 font-16"
             >
-              Learn more
+              Get Started
             </button>
           </div>
         </div>
