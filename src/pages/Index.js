@@ -949,7 +949,7 @@ const Index = () => {
                         <span></span>Free Bids
                       </h5>
                       <p className="font-16">
-                      Bid on projects without any charges and start earning with zero investment
+                      Bid on projects without any charges and start earning with zero investment.
                       </p>
                     </div>
                   </div>
