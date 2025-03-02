@@ -40,10 +40,10 @@ const AboutUS = () => {
   return (
     <>
       <CommonHelmet
-        title="About Us | GrapeTask Connecting World's Businesses and Talent"
+        title="Freelance Marketplace|No Commission, Work and Hire Online"
         name="description"
-        content="Grapetask mission is to change how the world works together. We connect businesses with freelancers offering life-changing digital services in 500+ categories."
-        keywords="About us, Grapetask, hire freelancers, freelance marketplace, online marketplace"
+        content="GrapeTask is a leading freelance marketplace. Find clients online, hire freelancers, hire remotely, and enjoy project outsourcing, all with no commission fees"
+        keywords="About us ,Freelance Marketplace ,hire freelancers ,Freelance platforms with no commission ,project outsourcing "
         canonical="https://www.grapetask.co/aboutus"
       />
 
@@ -143,11 +143,11 @@ const AboutUS = () => {
               className="video-play"
               width={80}
               height={80}
-              alt="w8"
+              alt="Affordable freelancers for hire"
             />
             <img
               src={videoImg}
-              alt="best freelance services marketplace"
+              alt="Freelancing platform"
               className="w-100 rounded-4"
             />
           </div>
@@ -356,7 +356,7 @@ const AboutUS = () => {
             </div>
           </div>
           <div className="col-lg-6 col-12 mt-lg-0 mt-4 d-flex align-items-center">
-            <img src={ourMission} className="w-100" alt="contract work" />
+            <img src={ourMission} className="w-100" alt="Online earning" />
           </div>
         </div>
       </div>
