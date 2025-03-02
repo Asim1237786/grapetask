@@ -1008,7 +1008,7 @@ const Index = () => {
                     className="me-4"
                     alt="w8 not found"
                   />
-                  <p className="font-16">The best for every budget</p>
+                  <p className="font-16">Affordable, High-Quality Services</p>
                 </div>
                 <div className="d-flex ">
                   <img
@@ -1018,7 +1018,7 @@ const Index = () => {
                     className="me-4"
                     alt="w8 not found"
                   />
-                  <p className="font-16">Quality work done quickly</p>
+                  <p className="font-16">Quick & Reliable Work</p>
                 </div>
                 <div className="d-flex ">
                   <img
@@ -1028,7 +1028,7 @@ const Index = () => {
                     className="me-4"
                     alt="w8 not found"
                   />
-                  <p className="font-16">Protected payments, every time </p>
+                  <p className="font-16">Secure Payment Guarantee</p>
                 </div>
                 <div className="d-flex ">
                   <img
@@ -1038,7 +1038,7 @@ const Index = () => {
                     className="me-4"
                     alt="w8 not found"
                   />
-                  <p className="font-16">24/7 support</p>
+                  <p className="font-16">24/7 Customer Support</p>
                 </div>
               </div>
             </div>
