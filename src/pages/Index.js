@@ -530,7 +530,7 @@ const Index = () => {
                         className="font-18 mb-0"
                         style={{ color: "rgba(102, 112, 133, 1)" }}
                       >
-                       We simplifies project outsourcing for businesses needing designers, content creators, or tech experts
+                       <a href="https://www.grapetask.co/">Grapetask</a> simplifies project outsourcing for businesses needing designers, creators, or tech experts
                       </p>
                     </div>
                   </div>
