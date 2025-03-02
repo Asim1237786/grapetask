@@ -88,14 +88,11 @@ const Testomonial = () => {
                 <img src={whysey} className="w-75 ceo-img rounded-5 " alt="freelance marketplace" />
                 <div className="treslent">
                   <p className=" ps-4 mb-0 font-16">
-                    "Thank you so much for your help. It's exactly what I've
-                    been looking for. You won't regret it. It really saves me
-                    time and effort. TOTC is exactly what our business has been
-                    lacking."
+                    ""GrapeTask made it so easy for me to find high-paying projects without the hassle of high commissions. The bidding system is fair, and payments are always on time. I’ve doubled my income since joining!"
                   </p>
                   <div className="d-flex flex-wrap justify-content-between ">
                     <div className="mt-2 fw-medium">
-                      <p className="font-16">Gloria Rose</p>
+                      <p className="font-16">Ayesha R.</p>
                     </div>
                     <div className="">
                       <div className=" justify-content-between d-flex">
@@ -115,14 +112,11 @@ const Testomonial = () => {
                 <img src={whysey} className="w-75 ceo-img rounded-5" alt="" />
                 <div className="treslent">
                   <p className=" ps-4 mb-0 font-16">
-                    "Thank you so much for your help. It's exactly what I've
-                    been looking for. You won't regret it. It really saves me
-                    time and effort. TOTC is exactly what our business has been
-                    lacking."
+                    ""I struggled to find reliable freelancers until I found GrapeTask. Within hours of posting my job, I got multiple skilled applicants. The platform’s payment security and project management tools make hiring stress-free!"
                   </p>
                   <div className="d-flex flex-wrap justify-content-between ">
                     <div className="mt-2 fw-medium">
-                      <p className="font-16">Gloria Rose</p>
+                      <p className="font-16">David S.</p>
                     </div>
                     <div className="">
                       <div className=" justify-content-between d-flex">
@@ -142,14 +136,11 @@ const Testomonial = () => {
                 <img src={whysey} className="w-75 ceo-img rounded-5" alt="" />
                 <div className="treslent">
                   <p className=" ps-4 mb-0 font-16">
-                    "Thank you so much for your help. It's exactly what I've
-                    been looking for. You won't regret it. It really saves me
-                    time and effort. TOTC is exactly what our business has been
-                    lacking."
+                    "I’ve tried many freelancing websites, but GrapeTask stands out. The low fees, easy-to-use interface, and quality clients make it a top choice. I landed my first project within a day and haven’t looked back since!"
                   </p>
                   <div className="d-flex flex-wrap justify-content-between ">
                     <div className="mt-2 fw-medium">
-                      <p className="font-16">Gloria Rose</p>
+                      <p className="font-16">Omar K</p>
                     </div>
                     <div className="">
                       <div className=" justify-content-between d-flex">
