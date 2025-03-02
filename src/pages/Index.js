@@ -939,7 +939,7 @@ const Index = () => {
             <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center">
               <div>
                 <h3 className="font-28 font-500 cocon">
-                 Why GrapeTask? Your Best Choice for Freelancing
+                 Why GrapeTask is Your Best Choice for Freelancing?
                 </h3>
                 <div className="mt-3">
                   <div className="mt-4 d-flex ">
