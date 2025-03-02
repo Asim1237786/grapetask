@@ -270,13 +270,13 @@ const Index = () => {
           <div className="row justify-content-center text-center">
             <div className="col-lg-8 col-12">
               <h2 className="font-70 font-500 cocon" style={{ color: "white" }}>
-                 Work Freely.
-                <span className="colororing"> Earn More</span>
+                 Find the Business.
+                <span className="colororing">Get Paid</span>
                 <br />
-                No Extra<span className="colororing"> Fees</span>{" "}
+                Grow your<span className="colororing"> Carrer</span>{" "}
               </h2>
               <p className=" font-18 text-white poppins">
-              Are you looking for an affordable freelance marketplace with low commission rates? GrapeTask is the ultimate Fiverr alternative designed to help businesses hire skilled freelancers and professionals find freelance jobs without hassle.</p>
+              Looking for an affordable freelance marketplace with low commission rates? GrapeTask is the best Fiverr alternative, offering freelance designing services and technical expertise. Connect with top talent and find freelance jobs easily.</p>
               <div
                 className="row  justify-conten-center mt-2 poppins position-relative "
                 style={{ zIndex: "99" }}
@@ -440,15 +440,15 @@ const Index = () => {
           <div className="col-lg-4 col-md-4 col-sm-6 col-12">
             <Grapetask
               imges={post}
-              heading="For Clients – Hire the Best Talent in Minutes"
-              para="Need experts for your next project? With GrapeTask, hiring freelancers is fast, secure, and budget-friendly."
+              heading="Clients – Hire the Best Talent"
+              para="Looking for experts? Our Fiverr alternative helps in project outsourcing by linking you with affordable freelancers for hire in minutes"
             />
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-12 mt-lg-5 mt-md-5 mt-4">
             <Grapetask
               imges={hire}
-              heading="For Freelancers – Start Earning Today"
-              para="GrapeTask is the best freelance marketplace and is designed to help you find freelance jobs without struggling through high competition or hidden fees."
+              heading="Freelancers – Find Work Without Hassle"
+              para="Need projects? Our freelancing platform in Pakistan connects you with clients for freelance designing services and more—fast, secure, and simple"
             />
           </div>
         </div>
@@ -456,15 +456,15 @@ const Index = () => {
           <div className="col-lg-4 col-md-4 col-sm-6 mt-lg-0 mt-md-0 mt-sm-0 mt-4 col-12">
             <Grapetask
               imges={get}
-              heading="Work Smarter, Earn More"
-              para="Whether you're a freelance graphic designer, writer, developer, or marketer, GrapeTask helps you build a successful freelancing career."
+              heading="Experts – Work Smarter, Earn More"
+              para="Writers, developers, and designers can boost their visibility with fair rates. Our platform ensures you get the right opportunities"
             />
           </div>
           <div className="col-lg-4 col-md-4 col-sm-6 col-12  mt-lg-5 mt-md-5 mt-4">
             <Grapetask
               imges={make}
               heading="Payment Assurance"
-              para="Pay confidently with our secure payment system and enjoy risk-free transactions every time"
+              para="Pay and get paid with confidence. Our freelance designing services marketplace offers risk-free transactions and secure payments"
             />
           </div>
         </div>
