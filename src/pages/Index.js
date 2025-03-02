@@ -464,7 +464,7 @@ const Index = () => {
             <Grapetask
               imges={make}
               heading="Payment Assurance"
-              para="Pay and get paid with confidence. Our freelance designing services marketplace offers risk-free transactions and secure payments"
+              para="Pay and get paid with confidence. Our freelance marketplace services marketplace offers risk-free transactions and secure payments"
             />
           </div>
         </div>
