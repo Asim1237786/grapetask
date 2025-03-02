@@ -184,10 +184,10 @@ const Index = () => {
   return (
     <>
       <CommonHelmet
-        title="GrapeTask | World's No: 1 Outsourcing Freelance Marketplace"
-        description="GrapeTask is a premium freelance marketplace solution. We connect businesses with expert freelancers that brighten up your freelancing career with ease"
+        title="|Grapetask|Best Fiverr Alternative for Freelancers in Pakistan"
+        description="Looking for the best Fiverr alternative? GrapeTask is Pakistan’s top freelancing platform, offering affordable freelancers for hire & easily project outsourcing"
         canonical="https://www.grapetask.co/"
-        keywords="GrapeTask ,outsouring  ,freelance marketplace ,project outsourcing  ,hire expertss"
+        keywords="GrapeTask ,Fiverr Alternative ,Freelancing platform in Pakistan ,project outsourcing  ,Freelance designing services"
       />
 
       <WelcomeModal />
