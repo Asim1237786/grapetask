@@ -74,10 +74,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Earning Potential </h5>
                   <p className="font-14 mb-0">
-                    Maximize your income with our freelance marketplace. Tap
-                    into global outsourcing opportunities and achieve financial
-                    freedom by working on high-paying projects that match your
-                    skills.
+                  Maximize your income with one of the best freelance platforms. With our low commission freelancing site, you keep more of what you earn while accessing global outsourcing opportunities.
                   </p>
                 </div>
               </div>
@@ -97,10 +94,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Flexibility </h5>
                   <p className="font-14 mb-0">
-                    Enjoy unmatched flexibility with our best freelance
-                    services. Choose projects that fit your schedule. Experience
-                    outsourcing at its best while maintaining financial freedom
-                    and a balanced lifestyle.
+                  Choose projects that fit your schedule and work from anywhere. Whether you’re looking for full-time freelancing or side gigs, our fast and easy hiring platform gives you complete control.
                   </p>
                 </div>
               </div>
@@ -120,9 +114,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Independence </h5>
                   <p className="font-14 mb-0">
-                    Take control of your career with our freelance marketplace.
-                    Outsourcing allows you to work independently, set your
-                    rates, and achieve financial freedom on your own terms.
+                  Set your own rates, pick the projects you want, and enjoy financial freedom. GrapeTask supports freelancers in building long-term careers with consistent opportunities.
                   </p>
                 </div>
               </div>
@@ -137,10 +129,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Work-Life Balance </h5>
                   <p className="font-14 mb-0">
-                    Achieve work-life balance with our freelance marketplace.
-                    Outsourcing gives you the power to work from anywhere,
-                    ensuring financial freedom without sacrificing personal
-                    time.{" "}
+                  Work on diverse projects and expand your expertise. Every task helps you gain experience, improve your skills, and grow professionally in your freelancing journey.{" "}
                   </p>
                 </div>
               </div>
@@ -155,10 +144,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Skill Development </h5>
                   <p className="font-14 mb-0">
-                    Enhance your skills through diverse projects on our
-                    freelance marketplace. Outsourcing exposes you to new
-                    challenges, helping you grow while working towards financial
-                    freedom.
+                  From startups to established businesses, clients trust GrapeTask for project outsourcing. Explore different industries, develop new skills, and expand your expertise.
                   </p>
                 </div>
               </div>
@@ -173,9 +159,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Variety of Projects</h5>
                   <p className="font-14 mb-0">
-                    Explore a variety of projects on our freelance marketplace.
-                    Outsourcing offers endless opportunities, ensuring financial
-                    freedom and the chance to work on what truly interests you.{" "}
+                  Build long-term relationships with reliable clients. Our platform connects you with businesses that value your skills, increasing your chances of repeat projects and steady income.{" "}
                   </p>
                 </div>
               </div>
