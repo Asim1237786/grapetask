@@ -94,7 +94,7 @@ const WhyGrapeTask = () => {
                 <div className="col-lg-10 col-12 poppins mt-lg-0 mt-3">
                   <h5 className="font-20">Flexibility </h5>
                   <p className="font-14 mb-0">
-                  Choose projects that fit your schedule and work from anywhere. Whether you’re looking for full-time freelancing or side gigs, our fast and easy hiring platform gives you complete control.
+                  Work from anywhere and select assignments that work with your schedule. Whether you’re looking for full-time freelancing or side gigs, our fast and easy hiring platform gives you complete control.
                   </p>
                 </div>
               </div>
