@@ -18,10 +18,10 @@ const WhyGrapeTask = () => {
   return (
     <>
       <CommonHelmet
-        title="Why GrapeTask – The Best Freelancing & Outsourcing Platform"
+        title="Best Freelance Platform |Low Commission & Free Bids|GrapeTask"
         name="description"
-        content="Hire top freelancers on GrapeTask and get work done with security, flexibility, and value. See why businesses and freelancers trust our platform to collaborate."
-        keywords="GrapeTask , freelance marketplace ,outsourcing ,best freelance services ,project outsourcing"
+        content="Join GrapeTask, a low commission freelancing site with free bids. Post your projects today and hire top talent with zaro experience a fast & easy hirings"
+        keywords="Low commission freelancing site, Best freelance platform ,Free bids ,Post your projects ,freelancing site"
         canonical="https://www.grapetask.co/whygrapetask"
       />
 
