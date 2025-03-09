@@ -48,8 +48,9 @@ const CommonHelmet = ({ title, description, keywords, canonical }) => {
       <meta property="og:title" content="Grapetask|Best Fiverr Alternative for Freelancers in Pakistan"/>
       <meta property="og:description" content="Looking for the best Fiverr alternative? GrapeTask is Pakistan top freelancing platform, offering affordable freelancers for hire & easily project outsourcing"/>
       <meta property="og:locale" content="en_US" />
-      <meta property="og:site_name" content="Grapetask.co" />
+      <meta property="og:site_name" content="Grapetask" />
       <meta property="og:type" content="website" />
+      <meta property="og:image" content="assets/grapetask freelance marketplace.webp"/>
       <meta property="og:url" content="https://www.grapetask.co/"/>
 
       {/* GTM Meta Tags */}
