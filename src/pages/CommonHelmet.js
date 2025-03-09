@@ -50,7 +50,7 @@ const CommonHelmet = ({ title, description, keywords, canonical }) => {
       <meta property="og:locale" content="en_US" />
       <meta property="og:site_name" content="Grapetask" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="assets/grapetask.jpg"/>
+      <meta property="og:image" content="/src/assets/grapetask.jpg"/>
       <meta property="og:url" content="https://www.grapetask.co/"/>
 
       {/* GTM Meta Tags */}
