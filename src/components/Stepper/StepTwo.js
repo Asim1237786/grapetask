@@ -97,7 +97,10 @@ const StepTwo = ({
             />
             {/* {!basicPackage && <FaPencilAlt color="#667085" />} */}
           </div>
-          <p className="font-12  takegraycolor text-end packeges-input mt-3"> max {basicPackage.length}/200</p>
+          <p className="font-12  takegraycolor text-end packeges-input mt-3">
+            {" "}
+            max {basicPackage.length}/200
+          </p>
         </div>
       </>,
       <>
@@ -120,8 +123,10 @@ const StepTwo = ({
             />
             {/* {!standerdPackage && <FaPencilAlt color="#667085" />} */}
           </div>
-          <p className="font-12  takegraycolor text-end packeges-input mt-3"> max {standerdPackage.length}/200</p>
-
+          <p className="font-12  takegraycolor text-end packeges-input mt-3">
+            {" "}
+            max {standerdPackage.length}/200
+          </p>
         </div>
       </>,
       <>
@@ -144,22 +149,24 @@ const StepTwo = ({
             />
             {/* {!premiumPackage && <FaPencilAlt cl color="#667085" />} */}
           </div>
-          <p className="font-12  takegraycolor text-end packeges-input mt-3"> max {premiumPackage.length}/200</p>
-
+          <p className="font-12  takegraycolor text-end packeges-input mt-3">
+            {" "}
+            max {premiumPackage.length}/200
+          </p>
         </div>
       </>
     ),
     createData(
       "Source File",
-      <div class="form-check ps-0">
+      <div className="form-check ps-0">
         <input
-          class="form-check-input d-none"
+          className="form-check-input d-none"
           checked={sourceFileBasice === "yes"}
           onChange={(e) => setSourceFileBasice(e.target.checked ? "yes" : "no")}
           type="checkbox"
           id="sourceBasic"
         />
-        <label class="form-check-label   cursor-pointer" for="sourceBasic">
+        <label className="form-check-label   cursor-pointer" for="sourceBasic">
           {sourceFileBasice === "yes" ? (
             <BsPatchCheckFill color="#F16336" size={20} />
           ) : (
@@ -167,9 +174,9 @@ const StepTwo = ({
           )}
         </label>
       </div>,
-      <div class="form-check ps-0">
+      <div className="form-check ps-0">
         <input
-          class="form-check-input d-none"
+          className="form-check-input d-none"
           checked={sourceFileStandard === "yes"}
           onChange={(e) =>
             setSourceFileStandard(e.target.checked ? "yes" : "no")
@@ -177,7 +184,10 @@ const StepTwo = ({
           type="checkbox"
           id="sourceStandard"
         />
-        <label class="form-check-labely cursor-pointer" for="sourceStandard">
+        <label
+          className="form-check-labely cursor-pointer"
+          for="sourceStandard"
+        >
           {sourceFileStandard === "yes" ? (
             <BsPatchCheckFill color="#F16336" size={20} />
           ) : (
@@ -185,9 +195,9 @@ const StepTwo = ({
           )}
         </label>
       </div>,
-      <div class="form-check ps-0">
+      <div className="form-check ps-0">
         <input
-          class="form-check-input d-none"
+          className="form-check-input d-none"
           checked={sourceFilePremium === "yes"}
           onChange={(e) =>
             setSourceFilePremium(e.target.checked ? "yes" : "no")
@@ -195,7 +205,7 @@ const StepTwo = ({
           type="checkbox"
           id="sourcePremium"
         />
-        <label class="form-check-labely cursor-pointer" for="sourcePremium">
+        <label className="form-check-labely cursor-pointer" for="sourcePremium">
           {sourceFilePremium === "yes" ? (
             <BsPatchCheckFill color="#F16336" size={20} />
           ) : (
@@ -206,9 +216,9 @@ const StepTwo = ({
     ),
     createData(
       "High Resolution",
-      <div class="form-check ps-0">
+      <div className="form-check ps-0">
         <input
-          class="form-check-input d-none"
+          className="form-check-input d-none"
           checked={resolutionFileBasice === "yes"}
           onChange={(e) =>
             setResolutionFileBasice(e.target.checked ? "yes" : "no")
@@ -216,7 +226,10 @@ const StepTwo = ({
           type="checkbox"
           id="resolutionBasic"
         />
-        <label class="form-check-label   cursor-pointer" for="resolutionBasic">
+        <label
+          className="form-check-label   cursor-pointer"
+          for="resolutionBasic"
+        >
           {resolutionFileBasice === "yes" ? (
             <BsPatchCheckFill color="#F16336" size={20} />
           ) : (
@@ -224,9 +237,9 @@ const StepTwo = ({
           )}
         </label>
       </div>,
-      <div class="form-check ps-0">
+      <div className="form-check ps-0">
         <input
-          class="form-check-input d-none"
+          className="form-check-input d-none"
           checked={resolutionFileStandard === "yes"}
           onChange={(e) =>
             setResolutionFileStandard(e.target.checked ? "yes" : "no")
@@ -235,7 +248,7 @@ const StepTwo = ({
           id="resolutionStandard"
         />
         <label
-          class="form-check-labely cursor-pointer"
+          className="form-check-labely cursor-pointer"
           for="resolutionStandard"
         >
           {resolutionFileStandard === "yes" ? (
@@ -245,9 +258,9 @@ const StepTwo = ({
           )}
         </label>
       </div>,
-      <div class="form-check ps-0">
+      <div className="form-check ps-0">
         <input
-          class="form-check-input d-none"
+          className="form-check-input d-none"
           checked={resolutionFilePremium === "yes"}
           onChange={(e) =>
             setResolutionFilePremium(e.target.checked ? "yes" : "no")
@@ -255,7 +268,10 @@ const StepTwo = ({
           type="checkbox"
           id="resolutionPremium"
         />
-        <label class="form-check-labely cursor-pointer" for="resolutionPremium">
+        <label
+          className="form-check-labely cursor-pointer"
+          for="resolutionPremium"
+        >
           {resolutionFilePremium === "yes" ? (
             <BsPatchCheckFill color="#F16336" size={20} />
           ) : (

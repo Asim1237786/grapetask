@@ -195,7 +195,7 @@ const ProfileUser = () => {
                       <div className="col-lg-6 col-md-6 col-12">
                         <label
                           for="firstName"
-                          class="form-label font-18 poppins blackcolor"
+                          className="form-label font-18 poppins blackcolor"
                         >
                           First Name
                         </label>
@@ -212,7 +212,7 @@ const ProfileUser = () => {
                       <div className="col-lg-6 col-md-6 col-12 mt-lg-0 mt-md-0 mt-sm-4 mt-3">
                         <label
                           for="LastName"
-                          class="form-label font-18 poppins blackcolor"
+                          className="form-label font-18 poppins blackcolor"
                         >
                           Last Name
                         </label>
@@ -227,11 +227,11 @@ const ProfileUser = () => {
                         />
                       </div>
                       <div className="col-lg-6 col-md-6 col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3">
-                        <p class="font-18 mb-2 mt-lg-3 mt-md-3 poppins blackcolor">
+                        <p className="font-18 mb-2 mt-lg-3 mt-md-3 poppins blackcolor">
                           Country
                         </p>
                         <select
-                          class="form-select border-0  font-16 poppins p-3"
+                          className="form-select border-0  font-16 poppins p-3"
                           required
                           aria-label="Default select example"
                           value={country}
@@ -244,11 +244,11 @@ const ProfileUser = () => {
                         </select>
                       </div>
                       <div className="col-lg-6 col-md-6 col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3">
-                        <p class="font-18 mb-2 mt-lg-3 mt-md-3 poppins blackcolor">
+                        <p className="font-18 mb-2 mt-lg-3 mt-md-3 poppins blackcolor">
                           City
                         </p>
                         <select
-                          class="form-select border-0  font-16 poppins p-3"
+                          className="form-select border-0  font-16 poppins p-3"
                           required
                           aria-label="Default select example"
                           value={city}
@@ -263,7 +263,7 @@ const ProfileUser = () => {
                       <div className="col-lg-6 col-md-6 col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3">
                         <label
                           for="firstName"
-                          class="form-label font-18 poppins blackcolor"
+                          className="form-label font-18 poppins blackcolor"
                         >
                           State/Province
                         </label>
@@ -280,7 +280,7 @@ const ProfileUser = () => {
                       <div className="col-lg-6 col-md-6 col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3">
                         <label
                           for="LastName"
-                          class="form-label font-18 poppins blackcolor"
+                          className="form-label font-18 poppins blackcolor"
                         >
                           Zip/Postal Code
                         </label>
@@ -295,7 +295,7 @@ const ProfileUser = () => {
                         />
                       </div>
                       {/* <div className="col-lg-6 col-md-6 col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3">
-                                                <label for="Npass" class="form-label font-18 poppins blackcolor">New Password</label>
+                                                <label for="Npass" className="form-label font-18 poppins blackcolor">New Password</label>
                                                 <input
                                                     type="password"
                                                     className="form-control p-3  border-0  font-16 poppins"
@@ -309,7 +309,7 @@ const ProfileUser = () => {
                                                     lowercase letters and numbers.</p>
                                             </div>
                                             <div className="col-lg-6 col-md-6 col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3">
-                                                <label for="cPass" class="form-label font-18 poppins blackcolor">Confirm Password</label>
+                                                <label for="cPass" className="form-label font-18 poppins blackcolor">Confirm Password</label>
                                                 <input
                                                     type="password"
                                                     className="form-control p-3  border-0  font-16 poppins"
@@ -320,7 +320,7 @@ const ProfileUser = () => {
                                                 />
                                             </div> */}
                       <div className="col-lg-6 col-md-6 col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3 phone-number">
-                        <p class="font-18 mb-2 mt-lg-3 mt-md-3 poppins blackcolor">
+                        <p className="font-18 mb-2 mt-lg-3 mt-md-3 poppins blackcolor">
                           Country
                         </p>
                         <PhoneInput
@@ -363,7 +363,7 @@ const ProfileUser = () => {
                       <div className="col-lg-6 col-md-6 col-12 prof-fields">
                         <label
                           for="Current"
-                          class="form-label font-18 poppins blackcolor"
+                          className="form-label font-18 poppins blackcolor"
                         >
                           Current Password
                         </label>
@@ -384,7 +384,7 @@ const ProfileUser = () => {
                       <div className="col-lg-6 col-md-6 col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3 prof-fields">
                         <label
                           for="New"
-                          class="form-label font-18 mt-lg-3 mt-md-3 poppins blackcolor"
+                          className="form-label font-18 mt-lg-3 mt-md-3 poppins blackcolor"
                         >
                           New Password
                         </label>
@@ -404,7 +404,7 @@ const ProfileUser = () => {
                       <div className="col-lg-6 col-md-6 col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3 prof-fields">
                         <label
                           for="Confirm"
-                          class="form-label mt-lg-3 mt-md-3 font-18 poppins blackcolor"
+                          className="form-label mt-lg-3 mt-md-3 font-18 poppins blackcolor"
                         >
                           Confirm Password
                         </label>
@@ -651,7 +651,7 @@ const ProfileUser = () => {
                                     <div className=" col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3">
                                       <label
                                         for="country"
-                                        class="form-label font-18 poppins blackcolor fw-medium"
+                                        className="form-label font-18 poppins blackcolor fw-medium"
                                       >
                                         Enter your country
                                       </label>
@@ -663,7 +663,7 @@ const ProfileUser = () => {
                                       />
                                     </div>
                                     <div className=" col-12 mt-lg-4 mt-md-4 mt-sm-4 mt-3 phone-number">
-                                      <p class="font-18 mb-2 mt-lg-3 mt-md-3 poppins blackcolor fw-medium">
+                                      <p className="font-18 mb-2 mt-lg-3 mt-md-3 poppins blackcolor fw-medium">
                                         Enter your Phone Number
                                       </p>
                                       <PhoneInput

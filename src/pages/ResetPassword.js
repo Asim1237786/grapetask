@@ -63,7 +63,7 @@ function ResetPassword() {
                   </div>
 
                   <form
-                    class="col-lg-12 col-md-12 col-12 mt-lg-3 mt-md-2 mt-2"
+                    className="col-lg-12 col-md-12 col-12 mt-lg-3 mt-md-2 mt-2"
                     onSubmit={handleSubmit}
                   >
                     <ToastContainer />

@@ -162,7 +162,7 @@ const StepOne = ({
                   )}
                 />
               </div>
-              {/* <textarea class="form-control font-14" rows="2" style={{ resize: 'none' }}></textarea> */}
+              {/* <textarea className="form-control font-14" rows="2" style={{ resize: 'none' }}></textarea> */}
               <p className="mb-0 font-12 takegraycolor mt-2">
                 5 tags maximum. Use letters and numbers only.
               </p>

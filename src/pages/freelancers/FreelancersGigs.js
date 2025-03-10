@@ -986,7 +986,7 @@ const FreelancersGigs = ({ onSelectPkg }) => {
                           >
                             <div className="offcanvas-header">
                               <h5
-                                class="offcanvas-title"
+                                className="offcanvas-title"
                                 id="offcanvasRightLabel"
                                 data-bs-dismiss="offcanvas"
                                 aria-label="Close"
@@ -1236,7 +1236,7 @@ const FreelancersGigs = ({ onSelectPkg }) => {
                           >
                             <div className="offcanvas-header">
                               <h5
-                                class="offcanvas-title"
+                                className="offcanvas-title"
                                 id="offcanvasRightLabel"
                                 data-bs-dismiss="offcanvas"
                                 aria-label="Close"
@@ -1488,7 +1488,7 @@ const FreelancersGigs = ({ onSelectPkg }) => {
                           >
                             <div className="offcanvas-header">
                               <h5
-                                class="offcanvas-title"
+                                className="offcanvas-title"
                                 id="offcanvasRightLabel"
                                 data-bs-dismiss="offcanvas"
                                 aria-label="Close"

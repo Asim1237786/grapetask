@@ -77,11 +77,11 @@ const HireExpert = () => {
             <h6 className="byerLine font-22 font-500 cocon blackcolor">
               Filtered by
             </h6>
-            <div class="accordion" id="accordionExample">
-              <div class="">
-                <div class="accordion-header ">
+            <div className="accordion" id="accordionExample">
+              <div className="">
+                <div className="accordion-header ">
                   <button
-                    class="accordion-button px-0 collapsed "
+                    className="accordion-button px-0 collapsed "
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
@@ -95,10 +95,10 @@ const HireExpert = () => {
                 </div>
                 <div
                   id="collapseOne"
-                  class="accordion-collapse collapse show"
+                  className="accordion-collapse collapse show"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body px-0">
+                  <div className="accordion-body px-0">
                     <div className="Revie">
                       <div className="input-group mb-lg-0 mb-md-0 mb-2 bgcard rounded-3">
                         <button
@@ -125,11 +125,11 @@ const HireExpert = () => {
                 </div>
               </div>
             </div>
-            <div class="accordion" id="accordionTwo">
-              <div class="">
-                <div class="accordion-header ">
+            <div className="accordion" id="accordionTwo">
+              <div className="">
+                <div className="accordion-header ">
                   <button
-                    class="accordion-button px-0 collapsed"
+                    className="accordion-button px-0 collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
@@ -143,10 +143,10 @@ const HireExpert = () => {
                 </div>
                 <div
                   id="collapseTwo"
-                  class="accordion-collapse collapse show"
+                  className="accordion-collapse collapse show"
                   data-bs-parent="#accordionTwo"
                 >
-                  <div class="accordion-body px-0">
+                  <div className="accordion-body px-0">
                     <div className="Revie font-15 poppins mt-3">
                       <p>Design & Creative</p>
                       <p>IT & Networking</p>
@@ -158,11 +158,11 @@ const HireExpert = () => {
                 </div>
               </div>
             </div>
-            <div class="accordion" id="accordionThree">
-              <div class="">
-                <div class="accordion-header ">
+            <div className="accordion" id="accordionThree">
+              <div className="">
+                <div className="accordion-header ">
                   <button
-                    class="accordion-button px-0 collapsed show"
+                    className="accordion-button px-0 collapsed show"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
@@ -176,10 +176,10 @@ const HireExpert = () => {
                 </div>
                 <div
                   id="collapseThree"
-                  class="accordion-collapse collapse show"
+                  className="accordion-collapse collapse show"
                   data-bs-parent="#accordionThree"
                 >
-                  <div class="accordion-body px-0">
+                  <div className="accordion-body px-0">
                     <div className="Revie font-15 poppins">
                       <p>
                         <BsCircleFill className="colororing me-3" /> Any job
@@ -199,11 +199,11 @@ const HireExpert = () => {
                 </div>
               </div>
             </div>
-            <div class="accordion" id="accordionfor">
-              <div class="">
-                <div class="accordion-header ">
+            <div className="accordion" id="accordionfor">
+              <div className="">
+                <div className="accordion-header ">
                   <button
-                    class="accordion-button px-0 collapsed"
+                    className="accordion-button px-0 collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapsefor"
@@ -217,10 +217,10 @@ const HireExpert = () => {
                 </div>
                 <div
                   id="collapsefor"
-                  class="accordion-collapse collapse show"
+                  className="accordion-collapse collapse show"
                   data-bs-parent="#accordionfor"
                 >
-                  <div class="accordion-body px-0">
+                  <div className="accordion-body px-0">
                     <div className="Revie font-15 poppins">
                       <p>
                         <BsCircleFill className="colororing me-3" /> Any Level

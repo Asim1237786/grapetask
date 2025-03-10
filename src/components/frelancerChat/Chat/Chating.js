@@ -81,7 +81,7 @@ const Chating = () => {
                 </div>
               </div>
               <div className="todayChat mt-2 mb-4 text-center">
-                <p class="font-14 poppins text-black credit-lines d-flex justify-content-center align-items-center">
+                <p className="font-14 poppins text-black credit-lines d-flex justify-content-center align-items-center">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wed,&nbsp;Jul&nbsp;13,&nbsp;2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </p>
               </div>
@@ -89,7 +89,7 @@ const Chating = () => {
             <div className="scroll px-3 ">
               <BasicPromo />
               <div className="todayChat mt-2 mb-4 text-center">
-                <p class="font-14 poppins text-black credit-lines d-flex justify-content-center align-items-center">
+                <p className="font-14 poppins text-black credit-lines d-flex justify-content-center align-items-center">
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Service&nbsp;Started&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </p>
               </div>

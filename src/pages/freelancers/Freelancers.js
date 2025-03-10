@@ -207,8 +207,8 @@ const Freelancers = () => {
             </select>
           </div>
           <div className="col-lg-5 col-md-6 col-sm-6 col-12 mt-lg-0 mt-md-0 mt-sm-0 mt-4 pe-lg-0">
-            <form class="input-group p-2 h-100" role="search">
-              <span class="input-group-text pt-0 pb-0" id="basic-addon1">
+            <form className="input-group p-2 h-100" role="search">
+              <span className="input-group-text pt-0 pb-0" id="basic-addon1">
                 <img src={search} width={16} alt="" />
               </span>
               <input

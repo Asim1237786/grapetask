@@ -48,8 +48,11 @@ const Order = () => {
               </div>
               <div className="col-lg-4 mt-lg-0 mt-4 col-md-6 col-sm-8 col-12">
                 <div className="allgigs-field">
-                  <div class="input-group p-2 h-100">
-                    <span class="input-group-text pt-0 pb-0" id="basic-addon1">
+                  <div className="input-group p-2 h-100">
+                    <span
+                      className="input-group-text pt-0 pb-0"
+                      id="basic-addon1"
+                    >
                       <img src={search} width={16} alt="" />
                     </span>
                     <input

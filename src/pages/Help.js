@@ -98,18 +98,18 @@ const Help = () => {
               <form className="row mt-2" onSubmit={handleSubmit}>
                 <ToastContainer />
 
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12 mt-3">
                   <input
                     type="text"
                     required
-                    class="form-control input-field  p-3"
+                    className="form-control input-field  p-3"
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
                     placeholder="First name"
                     aria-label="First name"
                   />
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12  mt-3">
+                <div className="col-lg-6 col-md-6 col-sm-12 col-12  mt-3">
                   <input
                     type="text"
                     required
@@ -120,7 +120,7 @@ const Help = () => {
                     aria-label="Last name"
                   />
                 </div>
-                <div class=" col-12 mt-4">
+                <div className=" col-12 mt-4">
                   <input
                     type="email"
                     required
@@ -131,7 +131,7 @@ const Help = () => {
                     aria-label="Email Address"
                   />
                 </div>
-                <div class=" col-12 mt-4">
+                <div className=" col-12 mt-4">
                   <input
                     type="text"
                     required
@@ -142,23 +142,26 @@ const Help = () => {
                     aria-label="Subject"
                   />
                 </div>
-                <div class=" col-12 mt-4">
+                <div className=" col-12 mt-4">
                   <textarea
                     placeholder="Please describe your issue"
                     className="form-control input-field p-3"
                     rows={4}
                   ></textarea>
                 </div>
-                <div class="col-12 mt-3 ">
-                  <div class="form-check colororing">
+                <div className="col-12 mt-3 ">
+                  <div className="form-check colororing">
                     <input
-                      class="form-check-input "
+                      className="form-check-input "
                       checked={terms === 1}
                       onChange={(e) => setTerms(e.target.checked ? 1 : 0)}
                       type="checkbox"
                       id="gridCheck"
                     />
-                    <label class="form-check-label colorgray" for="gridCheck">
+                    <label
+                      className="form-check-label colorgray"
+                      for="gridCheck"
+                    >
                       I am agreed with Terms of Service, Privacy Policy Provided
                       by GrapeTask.
                     </label>
@@ -175,7 +178,7 @@ const Help = () => {
                       "Submit"
                     )}
                   </button>
-                  {/* <p class="font-16 poppins colorgray credit-lines d-flex justify-content-center align-items-center mt-3 mb-4">&nbsp;&nbsp;or&nbsp;&nbsp;</p> */}
+                  {/* <p className="font-16 poppins colorgray credit-lines d-flex justify-content-center align-items-center mt-3 mb-4">&nbsp;&nbsp;or&nbsp;&nbsp;</p> */}
                 </div>
                 {/* <Button text='Sign up with Google' />
                 <p className='font-15 mt-3 colorgray'>Already a member? <Link to='/login' className='colororing'>LOG IN HERE</Link> </p> */}

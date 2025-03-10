@@ -10,8 +10,8 @@ const Applicants = () => {
       <div className="container-fluid pt-5">
         <div className="row justify-content-start  allgigs-field poppins">
           <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt-lg-0 mt-md-0 mt-sm-0 mt-4 pe-lg-0">
-            <div class="input-group p-2 h-100">
-              <span class="input-group-text pt-0 pb-0" id="basic-addon1">
+            <div className="input-group p-2 h-100">
+              <span className="input-group-text pt-0 pb-0" id="basic-addon1">
                 <img src={search} width={16} alt="" />
               </span>
               <input

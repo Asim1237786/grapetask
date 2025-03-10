@@ -12,8 +12,8 @@
 //                     <div className="row allgigs-field">
 
 //                         <div className=" col-12 px-0">
-//                             <div class="input-group p-2 h-100 poppins">
-//                                 <span class="input-group-text pt-0 pb-0" id="basic-addon1"><img src={search} width={16} alt="" /></span>
+//                             <div className="input-group p-2 h-100 poppins">
+//                                 <span className="input-group-text pt-0 pb-0" id="basic-addon1"><img src={search} width={16} alt="" /></span>
 //                                 <input type="text" className="form-control p-0 font-12" id="floatingInputGroup1" placeholder="Search" />
 //                             </div>
 //                         </div>

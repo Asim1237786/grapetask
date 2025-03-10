@@ -64,7 +64,7 @@ function Forgot1() {
               </div>
 
               <form
-                class=" col-12 mt-lg-3 mt-md-2 mt-2"
+                className=" col-12 mt-lg-3 mt-md-2 mt-2"
                 onSubmit={handleSubmit}
               >
                 <ToastContainer />

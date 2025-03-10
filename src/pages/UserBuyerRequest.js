@@ -174,8 +174,8 @@ const UserBuyerRequest = () => {
             </ul>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-6 col-12 my-lg-0 my-3 pe-lg-0">
-            <div class="input-group p-2">
-              <span class="input-group-text pt-0 pb-0" id="basic-addon1">
+            <div className="input-group p-2">
+              <span className="input-group-text pt-0 pb-0" id="basic-addon1">
                 <img src={search} width={16} alt="" />
               </span>
               <input
@@ -489,7 +489,7 @@ const UserBuyerRequest = () => {
                 <div className=" col-12 prof-fields">
                   <label
                     for="Price"
-                    class="form-label font-18 poppins blackcolor"
+                    className="form-label font-18 poppins blackcolor"
                   >
                     Description
                   </label>
@@ -507,7 +507,7 @@ const UserBuyerRequest = () => {
                 <div className="col-lg-6 col-md-6 col-12 prof-fields mt-4">
                   <label
                     for="Price"
-                    class="form-label font-18 poppins blackcolor"
+                    className="form-label font-18 poppins blackcolor"
                   >
                     Price
                   </label>
@@ -535,7 +535,7 @@ const UserBuyerRequest = () => {
                 <div className="col-lg-6 col-md-6 col-12 prof-fields  mt-4">
                   <label
                     for="date"
-                    class="form-label font-18 poppins blackcolor"
+                    className="form-label font-18 poppins blackcolor"
                   >
                     Date
                   </label>

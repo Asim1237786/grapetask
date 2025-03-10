@@ -13,8 +13,8 @@ const UsersChat = () => {
         <div className="container-fluid ">
           <div className="row allgigs-field">
             <div className=" col-12 px-0">
-              <div class="input-group p-2 h-100 poppins">
-                <span class="input-group-text pt-0 pb-0" id="basic-addon1">
+              <div className="input-group p-2 h-100 poppins">
+                <span className="input-group-text pt-0 pb-0" id="basic-addon1">
                   <img src={search} width={16} alt="" />
                 </span>
                 <input

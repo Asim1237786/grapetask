@@ -101,7 +101,7 @@ const Login1 = () => {
               <form className="row mt-2" onSubmit={handleSubmit}>
                 <ToastContainer />
 
-                <div class=" col-12 mt-4">
+                <div className=" col-12 mt-4">
                   <input
                     type="email"
                     value={email}
@@ -112,7 +112,7 @@ const Login1 = () => {
                     aria-label="Email Address"
                   />
                 </div>
-                <div class=" col-12 mt-4">
+                <div className=" col-12 mt-4">
                   <input
                     type="password"
                     required
@@ -150,8 +150,8 @@ const Login1 = () => {
                   </button>
                 </div>
 
-                <div class="col-12 mt-2 ">
-                  <p class="font-16 poppins colorgray credit-lines d-flex justify-content-center align-items-center mt-3 mb-4">
+                <div className="col-12 mt-2 ">
+                  <p className="font-16 poppins colorgray credit-lines d-flex justify-content-center align-items-center mt-3 mb-4">
                     &nbsp;&nbsp;Or&nbsp;&nbsp;
                   </p>
                 </div>
@@ -168,15 +168,15 @@ const Login1 = () => {
                 </p>
                 {/* Modal */}
                 <div
-                  class="modal fade"
+                  className="modal fade"
                   id="JoinUSModal"
                   tabindex="-1"
                   aria-labelledby="JoinUSModalLabel"
                   aria-hidden="true"
                 >
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-body p-lg-5 p-md-4 p-3">
+                  <div className="modal-dialog modal-dialog-centered">
+                    <div className="modal-content">
+                      <div className="modal-body p-lg-5 p-md-4 p-3">
                         <div className="row justify-content-center">
                           <h2 className="font-28 text-center cocon">
                             Join as a Expert, Client or Business Developer.

@@ -82,13 +82,13 @@
 //     <>
 //       <div className="container-fluid" style={{ backgroundColor: "#ededed" }}>
 //         <header>
-//           <nav class="navbar navbar-expand-lg pt-3 pb-3 poppins">
-//             <div class="container-fluid mx-lg-4 mx-md-3 mx-xm-3 mx-0">
-//               <Link class="nav-link  " to={token ? "/dashboard" : "/"}>
+//           <nav className="navbar navbar-expand-lg pt-3 pb-3 poppins">
+//             <div className="container-fluid mx-lg-4 mx-md-3 mx-xm-3 mx-0">
+//               <Link className="nav-link  " to={token ? "/dashboard" : "/"}>
 //                 <img src={logo1} className="logo" alt="w8" />
 //               </Link>
 //               <button
-//                 class="navbar-toggler"
+//                 className="navbar-toggler"
 //                 type="button"
 //                 data-bs-toggle="collapse"
 //                 data-bs-target="#navbarSupportedContent"
@@ -96,42 +96,42 @@
 //                 aria-expanded="false"
 //                 aria-label="Toggle navigation"
 //               >
-//                 <span class="navbar-toggler-icon"></span>
+//                 <span className="navbar-toggler-icon"></span>
 //               </button>
 //               <div
-//                 class="collapse navbar-collapse mt-lg-0 mt-3"
+//                 className="collapse navbar-collapse mt-lg-0 mt-3"
 //                 id="navbarSupportedContent"
 //               >
 //                 {/* ================
 //                                 First Nav Lists
 //                                 ================ */}
 //                 <ul
-//                   class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center"
+//                   className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center"
 //                   style={{ display: props.FirstNav }}
 //                 >
-//                   <li class="nav-item ms-3 mt-lg-0 mt-2">
-//                     <NavLink class="nav-link " to="/whygrapetask">
+//                   <li className="nav-item ms-3 mt-lg-0 mt-2">
+//                     <NavLink className="nav-link " to="/whygrapetask">
 //                       Why GrapeTask
 //                     </NavLink>
 //                   </li>
-//                   <li class="nav-item ms-3 mt-lg-0 mt-2">
-//                     <NavLink class="nav-link" to="/aboutus">
+//                   <li className="nav-item ms-3 mt-lg-0 mt-2">
+//                     <NavLink className="nav-link" to="/aboutus">
 //                       About US
 //                     </NavLink>
 //                   </li>
-//                   <li class="nav-item ms-3 mt-lg-0 mt-2">
-//                     <NavLink class="nav-link" to="/blog">
+//                   <li className="nav-item ms-3 mt-lg-0 mt-2">
+//                     <NavLink className="nav-link" to="/blog">
 //                       Blog
 //                     </NavLink>
 //                   </li>
-//                   <li class="nav-item ms-3 mt-lg-0 mt-2 ">
+//                   <li className="nav-item ms-3 mt-lg-0 mt-2 ">
 //                     <NavLink className="nav-link colororing" to="/login">
 //                       Log In
 //                     </NavLink>
 //                   </li>
-//                   {/* <li class="nav-item ms-3 mt-lg-0 mt-2">
+//                   {/* <li className="nav-item ms-3 mt-lg-0 mt-2">
 //                     <button
-//                       class=" btn-fill mt-lg-0 mt-2 ms-lg-4 ms-3"
+//                       className=" btn-fill mt-lg-0 mt-2 ms-lg-4 ms-3"
 //                       type="button"
 //                       data-bs-toggle="modal"
 //                       data-bs-target="#JoinUSModal"
@@ -145,7 +145,7 @@
 //                                 Second Nav Lists Start
 //                                 ================ */}
 //                 <ul
-//                   class={`navbar-nav  me-auto mb-2 mb-lg-0 ps-4
+//                   className={`navbar-nav  me-auto mb-2 mb-lg-0 ps-4
 //                                 `}
 //                   style={{ display: props.SecondNav }}
 //                 >
@@ -211,9 +211,9 @@
 //                   ""
 //                 ) : (
 //                   <div style={{ display: props.FirstNav }}>
-//                     <div class="d-flex">
+//                     <div className="d-flex">
 //                       <button
-//                         class=" btn-fill mt-lg-0 mt-2 ms-lg-4 ms-3"
+//                         className=" btn-fill mt-lg-0 mt-2 ms-lg-4 ms-3"
 //                         type="button"
 //                         data-bs-toggle="modal"
 //                         data-bs-target="#JoinUSModal"
@@ -222,15 +222,15 @@
 //                       </button>
 //                       {/* Modal */}
 //                       <div
-//                         class="modal fade"
+//                         className="modal fade"
 //                         id="JoinUSModal"
 //                         tabindex="-1"
 //                         aria-labelledby="JoinUSModalLabel"
 //                         aria-hidden="true"
 //                       >
-//                         <div class="modal-dialog modal-dialog-centered">
-//                           <div class="modal-content">
-//                             <div class="modal-body p-lg-5 p-md-4 p-3">
+//                         <div className="modal-dialog modal-dialog-centered">
+//                           <div className="modal-content">
+//                             <div className="modal-body p-lg-5 p-md-4 p-3">
 //                               <div className="row justify-content-center">
 //                                 <h2 className="font-28 text-center cocon">
 //                                   Join as a Expert, Client or Business
@@ -365,7 +365,7 @@
 //                                 Second Nav Last Div
 //                                 ================ */}
 //                 <div style={{ display: props.SecondNav }}>
-//                   <div class="d-flex align-items-center ">
+//                   <div className="d-flex align-items-center ">
 //                     <div className="dropdown-center notifaction-dropdon">
 //                       <div
 //                         className=" dropdown-toggle"
@@ -581,13 +581,13 @@ const Navbar = (props) => {
     <>
       <div className="container-fluid" style={{ backgroundColor: "#ededed" }}>
         <header>
-          <nav class="navbar navbar-expand-lg pt-3 pb-3 poppins">
-            <div class="container-fluid mx-lg-4 mx-md-3 mx-xm-3 mx-0">
-              <Link class="nav-link  " to={token ? "/dashboard" : "/"}>
+          <nav className="navbar navbar-expand-lg pt-3 pb-3 poppins">
+            <div className="container-fluid mx-lg-4 mx-md-3 mx-xm-3 mx-0">
+              <Link className="nav-link  " to={token ? "/dashboard" : "/"}>
                 <img src={logo1} className="logo" alt="w8" />
               </Link>
               <button
-                class="navbar-toggler"
+                className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
@@ -595,31 +595,31 @@ const Navbar = (props) => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
               </button>
               <div
-                class="collapse navbar-collapse mt-lg-0 mt-3"
+                className="collapse navbar-collapse mt-lg-0 mt-3"
                 id="navbarSupportedContent"
               >
                 {/* ================
                                 First Nav Lists 
                                 ================ */}
                 <ul
-                  class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center"
+                  className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center"
                   style={{ display: props.FirstNav }}
                 >
-                  <li class="nav-item ms-3 mt-lg-0 mt-2">
-                    <NavLink class="nav-link " to="/whygrapetask">
+                  <li className="nav-item ms-3 mt-lg-0 mt-2">
+                    <NavLink className="nav-link " to="/whygrapetask">
                       Why GrapeTask
                     </NavLink>
                   </li>
-                  <li class="nav-item ms-3 mt-lg-0 mt-2">
-                    <NavLink class="nav-link" to="/aboutus">
+                  <li className="nav-item ms-3 mt-lg-0 mt-2">
+                    <NavLink className="nav-link" to="/aboutus">
                       About US
                     </NavLink>
                   </li>
-                  <li class="nav-item ms-3 mt-lg-0 mt-2">
-                    <NavLink class="nav-link" to="/blog">
+                  <li className="nav-item ms-3 mt-lg-0 mt-2">
+                    <NavLink className="nav-link" to="/blog">
                       Blog
                     </NavLink>
                   </li>
@@ -652,7 +652,7 @@ const Navbar = (props) => {
                                 ================ */}
                 {token && (
                   <ul
-                    class={`navbar-nav  me-auto mb-2 mb-lg-0 ps-4
+                    className={`navbar-nav  me-auto mb-2 mb-lg-0 ps-4
                                 `}
                     style={{ display: props.SecondNav }}
                   >
@@ -714,9 +714,9 @@ const Navbar = (props) => {
                                 ================ */}
                 {!token && (
                   <div style={{ display: props.FirstNav }}>
-                    <div class="d-flex">
+                    <div className="d-flex">
                       <button
-                        class=" btn-fill mt-lg-0 mt-2 ms-lg-4 ms-3"
+                        className=" btn-fill mt-lg-0 mt-2 ms-lg-4 ms-3"
                         type="button"
                         onClick={handleJoinButton}
                       >
@@ -731,7 +731,7 @@ const Navbar = (props) => {
                                 ================ */}
                 {token && (
                   <div style={{ display: props.SecondNav }}>
-                    <div class="d-flex align-items-center ">
+                    <div className="d-flex align-items-center ">
                       <div className="dropdown-center notifaction-dropdon">
                         <div
                           className=" dropdown-toggle"

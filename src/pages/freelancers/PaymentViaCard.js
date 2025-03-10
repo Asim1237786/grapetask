@@ -46,16 +46,16 @@ const PaymentViaCard = ({ selectedPackage }) => {
       <Navbar FirstNav="none" />
       <div className="container-fluid p-lg-5 p-md-4 p-3 pt-5">
         <h6 className="font-30 font-500 cocon byerLine">Add a payout method</h6>
-        <div class="row justify-content-center payment-cards mt-4">
+        <div className="row justify-content-center payment-cards mt-4">
           <div className="col-lg-3 col-md-3 col-12 poppins">
             <div
-              class="nav flex-column nav-pills me-3 p-4 rounded-3  Paymentwhite h-100"
+              className="nav flex-column nav-pills me-3 p-4 rounded-3  Paymentwhite h-100"
               id="v-pills-tab"
               role="tablist"
               aria-orientation="vertical"
             >
               <button
-                class="nav-link active ps-0 d-flex align-items-center"
+                className="nav-link active ps-0 d-flex align-items-center"
                 id="v-pills-fast-checkout"
                 data-bs-toggle="pill"
                 data-bs-target="#v-pills-fastcheckout"
@@ -73,7 +73,7 @@ const PaymentViaCard = ({ selectedPackage }) => {
               </button>
               <button
                 disabled
-                class="nav-link d-flex align-items-center ps-0"
+                className="nav-link d-flex align-items-center ps-0"
                 id="v-pills-home-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#v-pills-home"
@@ -92,7 +92,7 @@ const PaymentViaCard = ({ selectedPackage }) => {
               </button>
               <button
                 disabled
-                class="nav-link ps-0 d-flex align-items-center"
+                className="nav-link ps-0 d-flex align-items-center"
                 id="v-pills-profile-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#v-pills-profile"
@@ -112,11 +112,11 @@ const PaymentViaCard = ({ selectedPackage }) => {
           </div>
           <div className="col-lg-9 col-md-9 col-12 mt-lg-0 mt-0 mt-4">
             <div
-              class="tab-content Paymentwhite p-lg-4 p-md-4 p-sm-3 p-2 pb-5 rounded-3"
+              className="tab-content Paymentwhite p-lg-4 p-md-4 p-sm-3 p-2 pb-5 rounded-3"
               id="v-pills-tabContent"
             >
               <div
-                class="tab-pane fade show active pt-2 pb-2"
+                className="tab-pane fade show active pt-2 pb-2"
                 id="v-pills-home"
                 role="tabpanel"
                 aria-labelledby="v-pills-home-tab"
@@ -195,7 +195,7 @@ const PaymentViaCard = ({ selectedPackage }) => {
                     </h6>
                   </div>
                   <div className="col-12">
-                    <div class="mb-3">
+                    <div className="mb-3">
                       <label for="formFile" className="form-label">
                         Default file input example
                       </label>
@@ -218,7 +218,7 @@ const PaymentViaCard = ({ selectedPackage }) => {
                 </div>
               </div>
               <div
-                class="tab-pane fade pt-2 pb-2"
+                className="tab-pane fade pt-2 pb-2"
                 id="v-pills-profile"
                 role="tabpanel"
                 aria-labelledby="v-pills-profile-tab"
@@ -299,7 +299,7 @@ const PaymentViaCard = ({ selectedPackage }) => {
                 </form>
               </div>
               <div
-                class="tab-pane fade pt-2 pb-2"
+                className="tab-pane fade pt-2 pb-2"
                 id="v-pills-fastcheckout"
                 role="tabpanel"
                 aria-labelledby="v-pills-fast-checkout"

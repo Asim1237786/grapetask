@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div class="curved-div"></div>
+        <div className="curved-div"></div>
         <div
           className="container-fluid pt-5  position-relative poppins"
           style={{ backgroundColor: "#F5F5FF" }}

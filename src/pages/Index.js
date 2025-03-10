@@ -270,13 +270,17 @@ const Index = () => {
           <div className="row justify-content-center text-center">
             <div className="col-lg-8 col-12">
               <h2 className="font-70 font-500 cocon" style={{ color: "white" }}>
-                 Find the Business.
+                Find the Business.
                 <span className="colororing">Get Paid</span>
                 <br />
                 Grow your<span className="colororing"> Carrer</span>{" "}
               </h2>
               <p className=" font-18 text-white poppins">
-              Looking for an affordable freelance marketplace with low commission rates? GrapeTask is the best Fiverr alternative, offering freelance designing services and technical expertise. Connect with top talent and find freelance jobs easily.</p>
+                Looking for an affordable freelance marketplace with low
+                commission rates? GrapeTask is the best Fiverr alternative,
+                offering freelance designing services and technical expertise.
+                Connect with top talent and find freelance jobs easily.
+              </p>
               <div
                 className="row  justify-conten-center mt-2 poppins position-relative "
                 style={{ zIndex: "99" }}
@@ -493,7 +497,11 @@ const Index = () => {
                 <div className="col-lg-10 col-12 mt-4">
                   <div className="row">
                     <div className="col-2 d-flex justify-content-center">
-                      <img src={pic1} className="w-100" alt="Online work marketplace" />
+                      <img
+                        src={pic1}
+                        className="w-100"
+                        alt="Online work marketplace"
+                      />
                     </div>
 
                     <div className="col-10">
@@ -530,7 +538,9 @@ const Index = () => {
                         className="font-18 mb-0"
                         style={{ color: "rgba(102, 112, 133, 1)" }}
                       >
-                       <a href="https://www.grapetask.co/">Grapetask</a> simplifies project outsourcing for businesses needing designers, creators, or tech experts
+                        <a href="https://www.grapetask.co/">Grapetask</a>{" "}
+                        simplifies project outsourcing for businesses needing
+                        designers, creators, or tech experts
                       </p>
                     </div>
                   </div>
@@ -592,13 +602,17 @@ const Index = () => {
           alt="Hire freelancers"
         />
         <h2 className="font-28 text-center cocon ">
-         Explore Top Freelance Services on Grapetask
+          Explore Top Freelance Services on Grapetask
         </h2>
         {/* =========== DESKTOP VERSION CATEGORY SLIDER ============= */}
 
         <div className="row justify-content-center poppins d-lg-flex d-md-flex d-sm-flex d-none">
           <div className="d-flex justify-content-center mb-lg-0 mb-3">
-            <img src={line} className="text-center" alt="Best freelance platform" />
+            <img
+              src={line}
+              className="text-center"
+              alt="Best freelance platform"
+            />
           </div>
 
           <div className="col-lg-3 col-md-6 col-12 mt-lg-5 mt-md-4 mt-sm-3 mt-2">
@@ -739,7 +753,7 @@ const Index = () => {
         {/* =========== DESKTOP VERSION CATEGORY SLIDER END============= */}
         {/* =========== MOBILE VERSION CATEGORY SLIDER START============= */}
         <div className="container-fluid d-lg-none d-md-none d-sm-none d-block index-bootstrap-carousel  bootstrap-carousel ">
-          <div class="row">
+          <div className="row">
             <div className="col-lg-3 col-md-6 col-12 mt-lg-5 mt-md-4 mt-sm-3 mt-2">
               <div className="container-fluid h-100">
                 <div className="row mycard p-3 align-items-center h-100">
@@ -890,7 +904,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div class="col-12 mt-2 text-center">
+            <div className="col-12 mt-2 text-center">
               <h4 onClick={handleShowLess} style={{ cursor: "pointer" }}>
                 {showLess ? "Show less" : "Show more"}
               </h4>
@@ -902,9 +916,13 @@ const Index = () => {
 
       {/*Make it Real with Freelancer section*/}
       <div className="container-fluid p-lg-5 p-md-5 p-sm-4 p-3 mt-4 position-relative overflow-hidden">
-        <img src={real} className=" position-absolute realimg start-0" alt="Hire freelancers online" />
+        <img
+          src={real}
+          className=" position-absolute realimg start-0"
+          alt="Hire freelancers online"
+        />
         <h3 className="text-center font-28 font-500 cocon">
-         Find the Best Freelance Services for Your Needs
+          Find the Best Freelance Services for Your Needs
         </h3>
         <div className="d-flex justify-content-center">
           <img src={line} className="text-center" alt="" />
@@ -939,28 +957,40 @@ const Index = () => {
             <div className="col-lg-6 col-md-6 col-12 d-flex align-items-center">
               <div>
                 <h3 className="font-28 font-500 cocon">
-                 Why GrapeTask is Your Best Choice for Freelancing?
+                  Why GrapeTask is Your Best Choice for Freelancing?
                 </h3>
                 <div className="mt-3">
                   <div className="mt-4 d-flex ">
-                    <img src={quality} width={30} height={39} alt="Post your projects" />
+                    <img
+                      src={quality}
+                      width={30}
+                      height={39}
+                      alt="Post your projects"
+                    />
                     <div className="ms-3">
                       <h5 className="font-20">
                         <span></span>Free Bids
                       </h5>
                       <p className="font-16">
-                      Bid on projects without any charges and start earning with zero investment.
+                        Bid on projects without any charges and start earning
+                        with zero investment.
                       </p>
                     </div>
                   </div>
                   <div className="mt-4 d-flex">
-                    <img src={cost} width={30} height={30} alt="hire skilled freelancers" />
+                    <img
+                      src={cost}
+                      width={30}
+                      height={30}
+                      alt="hire skilled freelancers"
+                    />
                     <div className="ms-3">
                       <h5 className="font-20">
                         <span></span>No start-up costs
                       </h5>
                       <p className="font-16">
-                       Post your projects for free and get work done without upfront fees.
+                        Post your projects for free and get work done without
+                        upfront fees.
                       </p>
                     </div>
                   </div>
@@ -983,7 +1013,8 @@ const Index = () => {
                         <span></span>Find Clients Online
                       </h5>
                       <p className="font-16">
-                       Connect with businesses actively looking for skilled freelancers.
+                        Connect with businesses actively looking for skilled
+                        freelancers.
                       </p>
                     </div>
                   </div>
@@ -1056,7 +1087,7 @@ const Index = () => {
         <div className="row px-4">
           <div className="col-lg-6 col-md-6 col-12 px-lg-4 px-3">
             <h6 className="poppins font-40 text-white fw-semibold">
-            Subscribe to get the latest updates and tips.
+              Subscribe to get the latest updates and tips.
             </h6>
           </div>
           <div className="col-lg-6 col-md-6 col-12 px-3">
