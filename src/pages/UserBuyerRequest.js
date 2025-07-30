@@ -250,12 +250,12 @@ const handleSubmitOffer = useCallback(async (e) => {
   e.preventDefault();
   
    const offerData = {
-  id: buyerId, // Matches backend's 'id' validation (buyer_request_id)
-  client_id: buyerRequestData.client.id, // From buyer request's client
-  gig_id: gigRadio || null, // Use null instead of empty string
+  id: buyerId, 
+  client_id: buyerRequestData?.client?.id, 
+  gig_id: gigRadio || null, 
   description: description.trim(),
   price: offerPrice.replace('$', ''),
-  date: offerDate, // Matches backend's 'date' field
+  date: offerDate, 
   expert_id: UserRole === "bidder/company representative/middleman" 
     ? (expertId || null) 
     : (buyerRequestData?.expert_id || null) // Use null instead of empty string
@@ -274,7 +274,19 @@ const handleSubmitOffer = useCallback(async (e) => {
   } finally {
     setOfferLoader(false);
   }
-}, [/* your dependencies */]);
+},  [
+  
+  buyerId,
+  description,
+  offerPrice,
+  offerDate,
+  gigRadio,
+  expertId,
+  buyerRequestData,
+  UserRole,
+  dispatch,
+  handleResponseOffer
+]);
 
   const resetForm = useCallback(() => {
     setDescription("");
